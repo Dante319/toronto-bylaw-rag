@@ -14,3 +14,4 @@ __pycache__/
 data/raw/
 qdrant_storage/
 .DS_Store
+data/debug/
