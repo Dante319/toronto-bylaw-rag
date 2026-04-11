@@ -17,3 +17,9 @@ dependencies = [
     "streamlit>=1.56.0",
     "tqdm>=4.67.3",
 ]
+
+[tool.uv]
+package = true
+
+[tool.setuptools.packages.find]
+where = ["."]
