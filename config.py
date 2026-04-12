@@ -35,3 +35,20 @@ CHUNK_OVERLAP = 64
 
 # Domains
 DOMAINS = ["short_term_rental", "noise", "residential_tenancy"]
+
+# Minimum similarity to confidently assign a single domain
+# Below this → search all domains
+DOMAIN_DETECTION_THRESHOLD = 0.75
+
+DOMAIN_DESCRIPTIONS = {
+    "short_term_rental": (
+        "Toronto short-term rental regulations, Airbnb licensing, "
+        "operator registration, rental company permits, hosting rules, "
+        "short-term rental by-law Chapter 547"
+    ),
+    "noise": (
+        "Toronto noise by-laws, quiet hours, construction noise, "
+        "amplified sound, disturbance complaints, noise permits, "
+        "noise by-law Chapter 591"
+    ),
+}

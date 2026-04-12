@@ -152,7 +152,7 @@ Examples where the system gets it wrong, and why:
 ### Install
 
 ```bash
-git clone https://github.com/your-username/toronto-bylaw-rag
+git clone https://github.com/Dante319/toronto-bylaw-rag
 cd toronto-bylaw-rag
 uv venv && source .venv/bin/activate
 uv sync
