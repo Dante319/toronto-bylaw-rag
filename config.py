@@ -21,9 +21,10 @@ QDRANT_API_KEY = os.environ.get("QDRANT_API_KEY")  # None in local dev
 COLLECTION_NAME = "toronto_bylaws"
 
 # Embedding
-EMBED_MODEL = "BAAI/bge-large-en-v1.5"
+EMBED_MODEL = os.environ.get("EMBED_MODEL", "BAAI/bge-large-en-v1.5")
 EMBED_DIMENSION = 1024
 EMBED_BATCH_SIZE = 32
+EMBED_DIMENSION = 1024 if "large" in EMBED_MODEL else 384
 
 # Retrieval
 TOP_K_DENSE = 10

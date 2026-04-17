@@ -4,8 +4,8 @@ Run this script once to parse, chunk, and index all source documents.
 Make sure Qdrant is running (docker start qdrant) before executing.
 
 Usage:
-    uv run ingestion/run_ingestion.py
-    uv run ingestion/run_ingestion.py --recreate   # wipe and rebuild index
+    uv run ingestion/runner.py
+    uv run ingestion/runner.py --recreate   # wipe and rebuild index
 """
 import argparse
 import logging
@@ -25,8 +25,7 @@ logger = logging.getLogger(__name__)
 
 DOCUMENTS = [
     ("pdf", config.DATA_RAW / "ch547_short_term_rental.pdf", "short_term_rental"),
-    ("pdf", config.DATA_RAW / "ch591_noise.pdf",             "noise"),
-    ("html", "https://www.ontario.ca/laws/statute/06r17",    "residential_tenancy"),
+    ("pdf", config.DATA_RAW / "ch591_noise.pdf",             "noise")
 ]
 
 
