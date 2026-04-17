@@ -1,0 +1,9 @@
+anthropic
+qdrant-client
+rank-bm25
+streamlit
+python-dotenv
+numpy
+torch
+torchvision
+sentence-transformer
