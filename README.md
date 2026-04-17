@@ -24,7 +24,8 @@ with citations to specific section numbers — so you can verify the source dire
 
 ## Demo
 
-> _Screenshot coming soon_
+<img width="987" height="585" alt="Screenshot 2026-04-17 at 4 50 53 PM" src="https://github.com/user-attachments/assets/a1057296-5c82-4c46-ad8a-4cc88ca90a1e" />
+
 
 ---
 
