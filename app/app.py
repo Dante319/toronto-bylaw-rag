@@ -81,7 +81,18 @@ if ask and query.strip():
         chunks, expanded_query = expand_and_retrieve(
             query, top_k=5, domain=domain
         )
-        result = generate_answer(query, chunks[:3])
+        result = generate_answer(query, chunks[:5])
+    
+    st.markdown("### Answer")
+    st.markdown(result["answer"])
+
+    if result["sources"]:
+        st.markdown(
+            "**Sections cited:** " +
+            " · ".join(f"`§ {s}`" for s in sorted(result["sources"]))
+        )
+
+    st.divider()
 
     # Domain scores expander — replaces the hardcoded badge
     with st.expander("🗂️ Domain detection"):
