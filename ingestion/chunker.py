@@ -1,4 +1,3 @@
-# ingestion/chunk.py
 from dataclasses import dataclass, field
 from ingestion.parser import ParsedDocument
 import re

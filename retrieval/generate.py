@@ -1,4 +1,3 @@
-# retrieval/generate.py
 import anthropic
 from retrieval.retrieve import RetrievedChunk
 import config

@@ -1,4 +1,3 @@
-# ingestion/parse.py
 import pdfplumber
 import requests
 from bs4 import BeautifulSoup

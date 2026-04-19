@@ -1,4 +1,3 @@
-# retrieval/query_expand.py
 import anthropic
 import config
 import logging

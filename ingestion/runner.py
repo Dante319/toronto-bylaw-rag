@@ -1,4 +1,3 @@
-# ingestion/runner.py
 """
 Run this script once to parse, chunk, and index all source documents.
 Make sure Qdrant is running (docker start qdrant) before executing.
