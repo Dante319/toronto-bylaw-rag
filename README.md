@@ -181,17 +181,19 @@ local Qdrant instance indexed with BGE-large.
 
 ## Evaluation
 
-_In progress — results coming soon._
-
-| Metric | Without HyDE | With HyDE | Delta |
-|---|---|---|---|
-| Recall@3 | _TBD_ | _TBD_ | _TBD_ |
+| Metric      | Without HyDE | With HyDE | Delta  |
+|-------------|-------------|-----------|--------|
+| Recall@3    | 0.793       | 0.779     | -0.014 |
+| Recall@5    | 0.864       | 0.864     | +0.000 |
 | Faithfulness (RAGAS) | _TBD_ | _TBD_ | _TBD_ |
 | Answer relevancy (RAGAS) | _TBD_ | _TBD_ | _TBD_ |
 | Context precision (RAGAS) | _TBD_ | _TBD_ | _TBD_ |
 
-Benchmark: 35 synthetically generated questions (RAGAS testset generator) +
-5 manually curated edge cases. See `eval/benchmark.json`.
+Benchmark: 140 synthetically generated test cases. See `eval/benchmark.json`.
+
+Observations:
+- HyDE does not improve recall rank on this corpus — the right chunks are retrieved either way. The benefit of HyDE is vocabulary bridging between conversational queries and legal prose, which improves generation faithfulness rather than retrieval rank.
+
 
 ---
 
