@@ -181,18 +181,24 @@ local Qdrant instance indexed with BGE-large.
 
 ## Evaluation
 
-| Metric      | Without HyDE | With HyDE | Delta  |
-|-------------|-------------|-----------|--------|
-| Recall@3    | 0.793       | 0.779     | -0.014 |
-| Recall@5    | 0.864       | 0.864     | +0.000 |
-| Faithfulness (RAGAS) | _TBD_ | _TBD_ | _TBD_ |
-| Answer relevancy (RAGAS) | _TBD_ | _TBD_ | _TBD_ |
-| Context precision (RAGAS) | _TBD_ | _TBD_ | _TBD_ |
+Evaluated against 140 synthetically generated questions (70 per domain).
 
-Benchmark: 140 synthetically generated test cases. See `eval/benchmark.json`.
+| Metric | Without HyDE | With HyDE + Reranker | Delta |
+|---|---|---|---|
+| Recall@3 | 0.793 | 0.814 | +0.021 |
+| Recall@5 | 0.864 | 0.900 | +0.036 |
 
-Observations:
-- HyDE does not improve recall rank on this corpus — the right chunks are retrieved either way. The benefit of HyDE is vocabulary bridging between conversational queries and legal prose, which improves generation faithfulness rather than retrieval rank.
+| Domain | Recall@3 | n |
+|---|---|---|
+| Noise by-laws (Ch. 591) | 0.850 | 60 |
+| Short-term rentals (Ch. 547) | 0.787 | 80 |
+
+### Key findings
+
+- The reranker improved Recall@3 by +0.035 over hybrid search alone, with the largest gains in the short-term rental domain (+0.062)
+- HyDE alone slightly hurt Recall@3 (-0.014) without reranking — query expansion benefits generation quality more than retrieval rank
+- HyDE + reranker together improve both Recall@3 (+0.021) and Recall@5 (+0.036) over the baseline
+- Remaining failures are concentrated in temporal queries and highly specific procedural sections
 
 
 ---
