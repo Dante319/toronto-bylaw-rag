@@ -1,0 +1,3372 @@
+{
+  "summary": {
+    "n": 140,
+    "recall_at_3_no_hyde": 0.7928571428571428,
+    "recall_at_3_hyde": 0.7785714285714286,
+    "recall_at_5_no_hyde": 0.8642857142857143,
+    "recall_at_5_hyde": 0.8642857142857143,
+    "ragas": {}
+  },
+  "per_question": [
+    {
+      "id": "synthetic_001",
+      "question": "What times of day am I not allowed to repair or modify my car if the sound is audible from outside my property?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-2.5",
+        "591-2.3",
+        "591-3.2",
+        "591-2.8",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.3",
+        "591-1.1",
+        "591-2.4",
+        "591-1.1",
+        "591-2.6"
+      ],
+      "relevant": [
+        "591-2.5"
+      ]
+    },
+    {
+      "id": "synthetic_002",
+      "question": "Is it legal to rev my engine loudly while parked on a Toronto street?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.5",
+        "591-4.3",
+        "591-5.2",
+        "547-2.5",
+        "591-3.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.5",
+        "591-1.1",
+        "591-5.2",
+        "591-4.1",
+        "591-3.1"
+      ],
+      "relevant": [
+        "591-2.5"
+      ]
+    },
+    {
+      "id": "synthetic_003",
+      "question": "Can Toronto Municipal Licensing and Standards refer a short-term rental licence matter to the Toronto Licensing Tribunal?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.5",
+        "547-2.4",
+        "547-5.2",
+        "547-3.1",
+        "547-1.2"
+      ],
+      "retrieved_hyde": [
+        "547-2.5",
+        "547-2.4",
+        "547-5.2",
+        "547-2.3",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-2.5"
+      ]
+    },
+    {
+      "id": "synthetic_004",
+      "question": "What types of licence actions can trigger a referral to the Toronto Licensing Tribunal for a short-term rental?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-2.5",
+        "547-2.4",
+        "547-3.1",
+        "547-2.13",
+        "547-2.4"
+      ],
+      "retrieved_hyde": [
+        "547-2.4",
+        "547-2.9",
+        "547-5.2",
+        "547-2.5",
+        "547-2.10"
+      ],
+      "relevant": [
+        "547-2.5"
+      ]
+    },
+    {
+      "id": "synthetic_005",
+      "question": "Does a motor-assisted bicycle count as a motorcycle under Toronto's noise by-law?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-5.2",
+        "591-1.1",
+        "591-2.5",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-1.1",
+        "591-2.5",
+        "547-2.12",
+        "591-2.1",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_006",
+      "question": "What does 'living area' mean in Toronto's noise by-law?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-1.1",
+        "591-5.2",
+        "591-1.1",
+        "591-2.4"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "591-2.8",
+        "591-1.1",
+        "591-3.2",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_007",
+      "question": "What does dB(A) mean in Toronto's noise by-law?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-1.1",
+        "591-1.1",
+        "591-2.4",
+        "591-2.8"
+      ],
+      "retrieved_hyde": [
+        "591-1.1",
+        "591-2.8",
+        "591-1.1",
+        "591-2.8",
+        "591-2.1"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_008",
+      "question": "Does government construction work on city infrastructure need to follow noise exemptions?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-2.3",
+        "591-3.2",
+        "591-1.1",
+        "591-3.2",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-2.4",
+        "591-3.2",
+        "591-2.3",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_009",
+      "question": "What is the maximum sound level allowed for amplified sound under a noise exemption permit in Toronto?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.1",
+        "591-3.2",
+        "591-2.8",
+        "591-2.5",
+        "591-2.8"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-2.1",
+        "591-2.8",
+        "591-2.8",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_010",
+      "question": "If I can't post a physical notice of my exemption permit at my event location, what alternative can the Executive Director allow?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_011",
+      "question": "How long can the Executive Director suspend a short-term rental licence or registration for immediate danger?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.13",
+        "547-4.2",
+        "547-1.1",
+        "547-4.4",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-2.13",
+        "547-2.4",
+        "547-2.3",
+        "547-5.2",
+        "547-2.9"
+      ],
+      "relevant": [
+        "547-2.13"
+      ]
+    },
+    {
+      "id": "synthetic_012",
+      "question": "If my short-term rental is suspended for immediate danger, am I entitled to a hearing before the suspension takes effect?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.13",
+        "547-4.4",
+        "547-2.4",
+        "547-3.6",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-2.13",
+        "547-2.4",
+        "547-2.3",
+        "547-5.2",
+        "547-2.9"
+      ],
+      "relevant": [
+        "547-2.13"
+      ]
+    },
+    {
+      "id": "synthetic_013",
+      "question": "How long do Councillors have to respond to a Level 1 or Level 2 noise exemption permit application before it can be approved?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-2.8"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "547-2.4"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_014",
+      "question": "What happens if I didn't comply with the terms of my previous noise exemption permit when I apply for a new one?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-2.8",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_015",
+      "question": "What factors does the Exemption Permit Screening Criteria consider when categorizing events or activities?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_016",
+      "question": "Can the Exemption Permit Screening Criteria be changed, and if so, who can make those changes?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_017",
+      "question": "Can train whistles be used at the railway crossing on Sheppard Avenue East near Agincourt Go Station?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-4.5",
+        "591-5.2",
+        "591-5.1",
+        "591-3.1",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-5.2",
+        "591-3.1",
+        "591-4.5",
+        "591-4.3",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-5.2"
+      ]
+    },
+    {
+      "id": "synthetic_018",
+      "question": "Which streets in Toronto have prohibited railway whistle use according to this by-law?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-5.2",
+        "591-4.5",
+        "547-2.5",
+        "591-3.1",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-5.2",
+        "591-4.5",
+        "591-1.1",
+        "591-1.1",
+        "591-3.1"
+      ],
+      "relevant": [
+        "591-5.2"
+      ]
+    },
+    {
+      "id": "synthetic_019",
+      "question": "When did the requirement for short-term rental companies to create accounts for Municipal Licensing and Standards come into effect?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-3.4",
+        "547-3.1",
+        "547-4.5",
+        "547-1.1",
+        "547-1.2"
+      ],
+      "retrieved_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-1.3",
+        "547-1.1",
+        "547-3.4"
+      ],
+      "relevant": [
+        "547-3.4"
+      ]
+    },
+    {
+      "id": "synthetic_020",
+      "question": "What are short-term rental companies required to do if Municipal Licensing and Standards requests operator and guest accounts?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-3.4",
+        "547-3.1",
+        "547-4.1",
+        "547-1.2",
+        "547-3.2"
+      ],
+      "retrieved_hyde": [
+        "547-4.5",
+        "547-3.1",
+        "547-4.1",
+        "547-2.4",
+        "547-3.4"
+      ],
+      "relevant": [
+        "547-3.4"
+      ]
+    },
+    {
+      "id": "synthetic_021",
+      "question": "What documents related to short-term rentals must include an operator's registration number?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-1.4",
+        "547-4.1",
+        "547-3.7",
+        "547-4.5",
+        "547-4.3"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-1.3",
+        "547-3.3",
+        "547-4.3",
+        "547-1.4"
+      ],
+      "relevant": [
+        "547-1.4"
+      ]
+    },
+    {
+      "id": "synthetic_022",
+      "question": "Am I required to put my registration number on the receipt I give to guests when they pay for their stay?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-3.3",
+        "547-1.4",
+        "547-2.2",
+        "547-4.3",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "547-3.3",
+        "547-1.3",
+        "547-3.1",
+        "547-1.4",
+        "547-4.3"
+      ],
+      "relevant": [
+        "547-1.4"
+      ]
+    },
+    {
+      "id": "synthetic_023",
+      "question": "According to Toronto by-laws, what types of animal noise are specifically prohibited?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.2",
+        "591-2.4",
+        "591-3.2",
+        "591-1.1",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-2.2",
+        "591-1.1",
+        "591-2.9",
+        "547-1.5",
+        "591-2.5"
+      ],
+      "relevant": [
+        "591-2.2"
+      ]
+    },
+    {
+      "id": "synthetic_024",
+      "question": "If my neighbor's dog is making persistent barking noise, what does the by-law say they're required to do?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.2",
+        "591-2.9",
+        "591-1.1",
+        "591-2.5",
+        "591-3.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.2",
+        "591-4.3",
+        "591-2.9",
+        "591-1.1",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-2.2"
+      ]
+    },
+    {
+      "id": "synthetic_025",
+      "question": "What time can I start construction work on a Saturday morning in Toronto?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.3",
+        "591-4.4",
+        "591-2.4",
+        "591-1.1",
+        "591-2.6"
+      ],
+      "retrieved_hyde": [
+        "591-2.3",
+        "591-1.1",
+        "591-2.4",
+        "591-2.6",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-2.3"
+      ]
+    },
+    {
+      "id": "synthetic_026",
+      "question": "Am I allowed to do construction on a statutory holiday in Toronto?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.3",
+        "591-2.4",
+        "591-2.6",
+        "591-3.2",
+        "547-5.2"
+      ],
+      "retrieved_hyde": [
+        "591-2.3",
+        "591-3.2",
+        "591-3.2",
+        "591-2.4",
+        "591-2.6"
+      ],
+      "relevant": [
+        "591-2.3"
+      ]
+    },
+    {
+      "id": "synthetic_027",
+      "question": "What emergency information must a short-term rental operator give to guests in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-4.4",
+        "547-4.1",
+        "547-4.5",
+        "547-3.7",
+        "547-3.1"
+      ],
+      "retrieved_hyde": [
+        "547-4.4",
+        "547-4.1",
+        "547-4.5",
+        "591-3.2",
+        "547-4.2"
+      ],
+      "relevant": [
+        "547-4.4"
+      ]
+    },
+    {
+      "id": "synthetic_028",
+      "question": "Where should a short-term rental operator post the building exit diagram for guests?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-4.4",
+        "547-3.7",
+        "547-5.1",
+        "547-2.13",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "547-4.4",
+        "547-1.1",
+        "547-1.3",
+        "547-4.1",
+        "547-4.5"
+      ],
+      "relevant": [
+        "547-4.4"
+      ]
+    },
+    {
+      "id": "synthetic_029",
+      "question": "How many days do I have to respond if I receive a notice about my short-term rental registration being revoked?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.9",
+        "547-4.2",
+        "547-2.13",
+        "547-4.5",
+        "547-3.3"
+      ],
+      "retrieved_hyde": [
+        "547-2.9",
+        "547-2.4",
+        "547-2.8",
+        "547-2.12",
+        "547-2.13"
+      ],
+      "relevant": [
+        "547-2.9"
+      ]
+    },
+    {
+      "id": "synthetic_030",
+      "question": "Who can revoke a short-term rental operator's registration in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.9",
+        "547-1.3",
+        "547-4.1",
+        "547-1.4",
+        "547-3.7"
+      ],
+      "retrieved_hyde": [
+        "547-2.9",
+        "547-2.12",
+        "547-2.4",
+        "547-4.1",
+        "547-2.8"
+      ],
+      "relevant": [
+        "547-2.9"
+      ]
+    },
+    {
+      "id": "synthetic_031",
+      "question": "What do I need to submit when applying for a short-term rental registration or renewing it?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-4.1",
+        "547-3.1",
+        "547-4",
+        "547-1.4",
+        "547-1.3"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-3.1",
+        "591-3.2",
+        "547-2.4",
+        "547-5.2"
+      ],
+      "relevant": [
+        "547-2.8"
+      ]
+    },
+    {
+      "id": "synthetic_032",
+      "question": "What happens if Municipal Licensing and Standards finds reasonable grounds that I'm not eligible for a short-term rental registration?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-4.1",
+        "547-2.4",
+        "547-1.2",
+        "547-2.12",
+        "547-2.12"
+      ],
+      "retrieved_hyde": [
+        "547-2.9",
+        "547-2.8",
+        "547-2.12",
+        "547-2.13",
+        "547-2.4"
+      ],
+      "relevant": [
+        "547-2.8"
+      ]
+    },
+    {
+      "id": "synthetic_033",
+      "question": "When did the short-term rental registration requirements come into force in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.3",
+        "547-1.1",
+        "547-4.4",
+        "547-3.4",
+        "547-4.1"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-1.1",
+        "547-1.1",
+        "547-3.1",
+        "547-3.4"
+      ],
+      "relevant": [
+        "547-4.1"
+      ]
+    },
+    {
+      "id": "synthetic_034",
+      "question": "If I have a registration to operate an entire-unit rental, what is the maximum number of nights per year I can rent it out?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-4.1",
+        "547-3.3",
+        "547-4.1",
+        "547-4.5",
+        "547-4"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-1.1",
+        "547-4",
+        "547-4.5",
+        "547-2.1"
+      ],
+      "relevant": [
+        "547-4.1"
+      ]
+    },
+    {
+      "id": "synthetic_035",
+      "question": "What is the minimum number of consecutive days required for a rental to be considered a short-term rental under Toronto by-laws?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.1",
+        "547-3.3",
+        "547-4.1",
+        "547-4.2",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "547-1.1",
+        "547-4.2",
+        "547-5.2",
+        "547-4.5"
+      ],
+      "relevant": [
+        "547-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_036",
+      "question": "Does a bed and breakfast operation need to follow the short-term rental rules in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.3",
+        "547-5.2",
+        "547-1.1",
+        "547-1.1",
+        "547-3.4"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "547-1.1",
+        "547-1.3",
+        "547-4.2",
+        "547-4.5"
+      ],
+      "relevant": [
+        "547-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_037",
+      "question": "How long do short-term rental operators need to keep records of their transactions?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.3",
+        "547-4.5",
+        "547-3.7",
+        "547-3.4",
+        "547-1.3"
+      ],
+      "retrieved_hyde": [
+        "547-4.5",
+        "547-3.3",
+        "547-4.1",
+        "547-5.2",
+        "547-1.3"
+      ],
+      "relevant": [
+        "547-4.5"
+      ]
+    },
+    {
+      "id": "synthetic_038",
+      "question": "What specific information must I include when keeping records of my short-term rental transactions?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.3",
+        "547-4.5",
+        "547-1.4",
+        "547-5.5",
+        "547-2.13"
+      ],
+      "retrieved_hyde": [
+        "547-3.3",
+        "547-4.5",
+        "547-5.2",
+        "547-4.1",
+        "547-4.4"
+      ],
+      "relevant": [
+        "547-4.5"
+      ]
+    },
+    {
+      "id": "synthetic_039",
+      "question": "What happens to my short-term rental licence if I apply for renewal and pay all the fees on time?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-2.4",
+        "547-2.4",
+        "547-2.2"
+      ],
+      "retrieved_hyde": [
+        "547-2.4",
+        "547-4.1",
+        "547-3.1",
+        "547-2.2",
+        "547-2.3"
+      ],
+      "relevant": [
+        "547-2.4"
+      ]
+    },
+    {
+      "id": "synthetic_040",
+      "question": "When does a short-term rental licence stop being valid during the renewal process if a hearing is requested?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.4",
+        "547-2.4",
+        "547-2.13",
+        "547-3.1",
+        "547-2.2"
+      ],
+      "retrieved_hyde": [
+        "547-2.4",
+        "547-2.4",
+        "547-2.8",
+        "547-2.9",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-2.4"
+      ]
+    },
+    {
+      "id": "synthetic_041",
+      "question": "How many days after mailing is a noise compliance order considered officially received?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-2.4",
+        "591-3.2",
+        "591-4.3",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-4.3",
+        "591-3.2",
+        "591-2.4",
+        "547-2.1",
+        "547-2.4"
+      ],
+      "relevant": [
+        "591-4.3"
+      ]
+    },
+    {
+      "id": "synthetic_042",
+      "question": "If I rent my apartment and the landlord doesn't own the building, who needs to receive a noise violation notice?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.9",
+        "591-4.3",
+        "547-4.1",
+        "591-3.2",
+        "547-5.3"
+      ],
+      "retrieved_hyde": [
+        "591-4.3",
+        "547-1.1",
+        "591-2.4",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-4.3"
+      ]
+    },
+    {
+      "id": "synthetic_043",
+      "question": "When was the short-term rental by-law adopted by Toronto City Council?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-5.5",
+        "547-1.1",
+        "591-5.2",
+        "547-4.4",
+        "547-3.3"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "547-5.5",
+        "547-4.4",
+        "547-3.4",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-5.5"
+      ]
+    },
+    {
+      "id": "synthetic_044",
+      "question": "What is the by-law number for the short-term rental administrative provisions?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-1.3",
+        "547-4.1",
+        "547-3.3",
+        "547-1.1",
+        "547-4.4"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "547-5.2",
+        "547-1.3",
+        "547-3.4",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-5.5"
+      ]
+    },
+    {
+      "id": "synthetic_045",
+      "question": "Can a short-term rental operator refuse to rent to someone because of their race or disability?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.7",
+        "547-2.12",
+        "547-3.5",
+        "547-4.2",
+        "547-2.13"
+      ],
+      "retrieved_hyde": [
+        "547-1.5",
+        "547-1.1",
+        "547-3.5",
+        "547-2.12",
+        "547-2.4"
+      ],
+      "relevant": [
+        "547-1.5"
+      ]
+    },
+    {
+      "id": "synthetic_046",
+      "question": "What protected grounds are listed under the discrimination provisions for short-term rental operators?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.3",
+        "547-3.7",
+        "547-2.13",
+        "547-2.12",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "547-5.2",
+        "547-1.5",
+        "547-3.4",
+        "547-2.12"
+      ],
+      "relevant": [
+        "547-1.5"
+      ]
+    },
+    {
+      "id": "synthetic_047",
+      "question": "If my short-term rental registration was revoked last year, can I apply for a new registration this year?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.12",
+        "547-2.11",
+        "547-2.2",
+        "547-3.3",
+        "547-4.1"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-3.1",
+        "547-2.12",
+        "547-2.8",
+        "547-2.9"
+      ],
+      "relevant": [
+        "547-2.12"
+      ]
+    },
+    {
+      "id": "synthetic_048",
+      "question": "What is the one-year lookback period used for in short-term rental registration decisions?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-1.1",
+        "547-3.3",
+        "547-4.1",
+        "547-4.5",
+        "547-4.4"
+      ],
+      "retrieved_hyde": [
+        "547-4.5",
+        "547-1.3",
+        "547-5.2",
+        "547-4.1",
+        "547-3.3"
+      ],
+      "relevant": [
+        "547-2.12"
+      ]
+    },
+    {
+      "id": "synthetic_049",
+      "question": "Does the noise from my kids playing in the backyard count as unreasonable noise under Toronto's by-laws?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-2.9",
+        "591-5.2",
+        "591-1.1",
+        "591-2.6"
+      ],
+      "retrieved_hyde": [
+        "591-2.8",
+        "591-2.1",
+        "591-3.2",
+        "591-3.2",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_050",
+      "question": "What is the official definition of unreasonable noise in Toronto?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-2.9",
+        "591-1.1",
+        "547-1.1",
+        "591-2.8"
+      ],
+      "retrieved_hyde": [
+        "591-1.1",
+        "591-2.9",
+        "591-1.1",
+        "591-2.8",
+        "591-2.1"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_051",
+      "question": "Who can enter my property to do remedial work if I don't fix a noise violation?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-4.4",
+        "591-2.9",
+        "591-3.2",
+        "591-4.3",
+        "591-3.1"
+      ],
+      "retrieved_hyde": [
+        "591-4.3",
+        "547-5.2",
+        "591-3.2",
+        "591-2.4",
+        "547-4.1"
+      ],
+      "relevant": [
+        "591-4.4"
+      ]
+    },
+    {
+      "id": "synthetic_052",
+      "question": "If the city has to fix a noise problem on my property because I didn't comply with an order, who pays for it?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-4.3",
+        "591-3.2",
+        "547-3.1",
+        "591-3.1",
+        "547-4.1"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-4.3",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-4.4"
+      ]
+    },
+    {
+      "id": "synthetic_053",
+      "question": "What factors does the Executive Director consider when deciding what conditions to add to a noise exemption permit?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_054",
+      "question": "Will the Executive Director consider my past compliance record when I apply for a noise exemption permit?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_055",
+      "question": "What information must a short-term rental operator provide to someone advertising or renting out their property?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.7",
+        "547-1.3",
+        "547-4.1",
+        "547-4.2",
+        "547-4.5"
+      ],
+      "retrieved_hyde": [
+        "547-1.3",
+        "547-4.2",
+        "547-4.1",
+        "547-1.1",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-1.3"
+      ]
+    },
+    {
+      "id": "synthetic_056",
+      "question": "Where on a short-term rental advertisement must the registration number be displayed?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-4.3",
+        "547-1.3",
+        "547-3.3",
+        "547-4.1",
+        "547-1.4"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-1.3",
+        "547-3.3",
+        "547-4.3",
+        "547-1.4"
+      ],
+      "relevant": [
+        "547-1.3"
+      ]
+    },
+    {
+      "id": "synthetic_057",
+      "question": "What time can I receive a delivery at my restaurant without violating the noise by-law?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.4",
+        "547-4.1",
+        "591-2.3",
+        "591-1.1",
+        "591-2.6"
+      ],
+      "retrieved_hyde": [
+        "591-2.4",
+        "591-3.2",
+        "591-2.3",
+        "591-3.2",
+        "591-2.5"
+      ],
+      "relevant": [
+        "591-2.4"
+      ]
+    },
+    {
+      "id": "synthetic_058",
+      "question": "During what hours is loading and unloading noise prohibited on a Sunday?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.9",
+        "591-2.4",
+        "547-4.1",
+        "591-2.3",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.4",
+        "591-3.2",
+        "591-2.3",
+        "591-3.2",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-2.4"
+      ]
+    },
+    {
+      "id": "synthetic_059",
+      "question": "What are the noise limits for stationary sources like air conditioners in Toronto residential areas during nighttime hours?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.8",
+        "591-2.8",
+        "591-2.5",
+        "591-1.1",
+        "591-2.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.8",
+        "591-2.8",
+        "591-1.1",
+        "591-2.1",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-2.8"
+      ]
+    },
+    {
+      "id": "synthetic_060",
+      "question": "What is the maximum sound level allowed from a stationary source in my backyard between 7 a.m. and 11 p.m.?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.8",
+        "591-2.1",
+        "591-2.8",
+        "591-2.5",
+        "591-2.3"
+      ],
+      "retrieved_hyde": [
+        "591-2.8",
+        "591-2.8",
+        "591-2.5",
+        "591-2.1",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-2.8"
+      ]
+    },
+    {
+      "id": "synthetic_061",
+      "question": "Can Municipal Licensing and Standards inspect a short-term rental property at any time?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-5.2",
+        "547-4.1",
+        "547-1.2",
+        "547-2.4",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-5.2",
+        "547-2.4",
+        "591-4.2",
+        "547-1.2",
+        "547-2.8"
+      ],
+      "relevant": [
+        "547-5.2"
+      ]
+    },
+    {
+      "id": "synthetic_062",
+      "question": "What must a short-term rental operator do when Municipal Licensing and Standards conducts an inspection?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.2",
+        "547-4.1",
+        "547-5.2",
+        "547-4.5",
+        "547-2.4"
+      ],
+      "retrieved_hyde": [
+        "547-5.2",
+        "547-4.1",
+        "547-2.4",
+        "547-5.1",
+        "547-1.2"
+      ],
+      "relevant": [
+        "547-5.2"
+      ]
+    },
+    {
+      "id": "synthetic_063",
+      "question": "Are fire truck sirens allowed to make noise in Toronto, even during noise restriction hours?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.1",
+        "591-2.3",
+        "591-2.9",
+        "591-2.4",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.1",
+        "591-2.5",
+        "591-3.2",
+        "591-2.4",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.1"
+      ]
+    },
+    {
+      "id": "synthetic_064",
+      "question": "Is waste collection permitted to generate noise under Toronto's noise by-laws?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-2.4",
+        "591-2.9",
+        "591-3.1",
+        "591-2.8"
+      ],
+      "retrieved_hyde": [
+        "591-1.1",
+        "591-3.2",
+        "591-2.4",
+        "591-3.2",
+        "591-2.3"
+      ],
+      "relevant": [
+        "591-3.1"
+      ]
+    },
+    {
+      "id": "synthetic_065",
+      "question": "What information do I need to provide when applying for a short-term rental operator's registration in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-4.1",
+        "547-3.1",
+        "547-3.2",
+        "547-1.4",
+        "547-4.5"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-3.3",
+        "547-3.1",
+        "547-1.4",
+        "591-3.2"
+      ],
+      "relevant": [
+        "547-4.1"
+      ]
+    },
+    {
+      "id": "synthetic_066",
+      "question": "When was the short-term rental registration requirement last updated in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.3",
+        "547-4.1",
+        "547-1.3",
+        "547-3.4",
+        "547-4.5"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-3.4",
+        "547-1.1",
+        "547-2.2",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-4.1"
+      ]
+    },
+    {
+      "id": "synthetic_067",
+      "question": "If I received a noise exemption permit before October 1, 2019, do the new noise by-law rules apply to me?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-4.5",
+        "591-2.9",
+        "591-2.6",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-4.5",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-2.9"
+      ],
+      "relevant": [
+        "591-4.5"
+      ]
+    },
+    {
+      "id": "synthetic_068",
+      "question": "What happens to noise enforcement cases that started before June 1, 2024 but weren't finished by that date?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-4.5",
+        "591-2.9",
+        "591-3.2",
+        "591-2.3",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-4.5",
+        "591-4.3",
+        "591-2.6",
+        "591-3.2",
+        "591-4.2"
+      ],
+      "relevant": [
+        "591-4.5"
+      ]
+    },
+    {
+      "id": "synthetic_069",
+      "question": "What is the maximum fine for violating Toronto's short-term rental by-law?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-4.1",
+        "547-1.3",
+        "547-4.1",
+        "547-5.2",
+        "547-5.3"
+      ],
+      "retrieved_hyde": [
+        "591-4.1",
+        "547-5.3",
+        "591-4.3",
+        "591-3.2",
+        "591-1.1"
+      ],
+      "relevant": [
+        "547-5.3"
+      ]
+    },
+    {
+      "id": "synthetic_070",
+      "question": "Can a corporation's director or officer be held personally liable for the company's violation of short-term rental rules?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.1",
+        "547-3.5",
+        "547-3.1",
+        "591-4.1",
+        "547-5.1"
+      ],
+      "retrieved_hyde": [
+        "547-5.3",
+        "591-4.1",
+        "547-3.5",
+        "547-2.3",
+        "547-3.6"
+      ],
+      "relevant": [
+        "547-5.3"
+      ]
+    },
+    {
+      "id": "synthetic_071",
+      "question": "How long does a short-term rental company need to keep records of transactions on their platform?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.3",
+        "547-4.5",
+        "547-3.7",
+        "547-3.4",
+        "547-2.13"
+      ],
+      "retrieved_hyde": [
+        "547-3.3",
+        "547-4.5",
+        "547-3.4",
+        "547-5.2",
+        "547-1.3"
+      ],
+      "relevant": [
+        "547-3.3"
+      ]
+    },
+    {
+      "id": "synthetic_072",
+      "question": "What information must a short-term rental company include in their transaction records?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.3",
+        "547-4.5",
+        "547-3.7",
+        "547-2.13",
+        "547-1.4"
+      ],
+      "retrieved_hyde": [
+        "547-3.3",
+        "547-4.5",
+        "547-4.1",
+        "547-3.4",
+        "547-1.3"
+      ],
+      "relevant": [
+        "547-3.3"
+      ]
+    },
+    {
+      "id": "synthetic_073",
+      "question": "How far in advance do I need to apply for a noise exemption permit in Toronto?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_074",
+      "question": "What documents do I need to submit when applying for a noise exemption permit?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "547-4.1",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_075",
+      "question": "What information do I need to provide when applying for a short-term rental company licence in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-3.2",
+        "547-2.4",
+        "547-4.5"
+      ],
+      "retrieved_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-2.4",
+        "591-3.2",
+        "547-1.2"
+      ],
+      "relevant": [
+        "547-3.1"
+      ]
+    },
+    {
+      "id": "synthetic_076",
+      "question": "What is required in a short-term rental company licence application regarding unregistered operators?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-2.4",
+        "547-1.2",
+        "547-3.7"
+      ],
+      "retrieved_hyde": [
+        "547-3.1",
+        "547-3.3",
+        "547-4.1",
+        "547-2.4",
+        "547-1.3"
+      ],
+      "relevant": [
+        "547-3.1"
+      ]
+    },
+    {
+      "id": "synthetic_077",
+      "question": "Do I need a licence from Municipal Licensing and Standards to run a short-term rental business in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-1.2",
+        "547-3.1",
+        "547-2.4",
+        "547-5.2",
+        "547-4.5"
+      ],
+      "retrieved_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-1.1",
+        "547-1.2",
+        "547-2.1"
+      ],
+      "relevant": [
+        "547-1.2"
+      ]
+    },
+    {
+      "id": "synthetic_078",
+      "question": "What is the requirement for someone who wants to work as a short-term rental operator in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-4.1",
+        "547-3.7",
+        "547-1.1",
+        "547-3.1",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-3.1",
+        "547-1.3",
+        "547-1.1",
+        "547-5.2"
+      ],
+      "relevant": [
+        "547-1.2"
+      ]
+    },
+    {
+      "id": "synthetic_079",
+      "question": "What is the minimum age requirement to apply for a short-term rental registration in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-4.1",
+        "547-4",
+        "591-3.2",
+        "547-3.4",
+        "547-3.3"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-4",
+        "547-2.4",
+        "547-2.8",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-4"
+      ]
+    },
+    {
+      "id": "synthetic_080",
+      "question": "Can I hold multiple short-term rental registrations under this by-law?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-1.3",
+        "547-4.3",
+        "547-4.1",
+        "547-1.1",
+        "547-4.2"
+      ],
+      "retrieved_hyde": [
+        "547-4.2",
+        "547-1.1",
+        "547-2.1",
+        "591-4.3",
+        "547-1.1"
+      ],
+      "relevant": [
+        "547-4"
+      ]
+    },
+    {
+      "id": "synthetic_081",
+      "question": "Can I sell my short-term rental license to someone else if I decide to stop operating?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-1.2",
+        "547-2.12",
+        "547-2.13",
+        "547-1.1",
+        "547-4.2"
+      ],
+      "retrieved_hyde": [
+        "547-2.4",
+        "547-1.2",
+        "547-4.1",
+        "591-3.2",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-2.1"
+      ]
+    },
+    {
+      "id": "synthetic_082",
+      "question": "What do I need to have before I can legally operate a short-term rental business in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-1.2",
+        "547-5.2",
+        "547-4.1",
+        "547-3.1",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-2.4",
+        "547-1.2",
+        "547-5.2"
+      ],
+      "relevant": [
+        "547-2.1"
+      ]
+    },
+    {
+      "id": "synthetic_083",
+      "question": "What is the maximum fine for violating Toronto's noise by-law?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-4.1",
+        "591-2.1",
+        "591-1.1",
+        "547-5.3",
+        "591-5.2"
+      ],
+      "retrieved_hyde": [
+        "591-4.1",
+        "547-5.3",
+        "591-3.2",
+        "591-3.2",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-4.1"
+      ]
+    },
+    {
+      "id": "synthetic_084",
+      "question": "If I ignore a noise exemption permit that the city issued to me, what penalty could I face?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-2.9",
+        "591-3.2",
+        "547-5.3"
+      ],
+      "retrieved_hyde": [
+        "591-4.1",
+        "591-3.2",
+        "591-3.2",
+        "547-5.3",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-4.1"
+      ]
+    },
+    {
+      "id": "synthetic_085",
+      "question": "Can I operate short-term rentals on multiple properties in Toronto at the same time?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.1",
+        "547-4.2",
+        "547-2.6",
+        "547-3.7",
+        "547-4.1"
+      ],
+      "retrieved_hyde": [
+        "547-4.2",
+        "547-1.1",
+        "547-4.1",
+        "547-5.2",
+        "547-4.5"
+      ],
+      "relevant": [
+        "547-4.2"
+      ]
+    },
+    {
+      "id": "synthetic_086",
+      "question": "What is the deadline for providing proof to Toronto's Municipal Licensing and Standards that my short-term rental property is my principal residence?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-4.2",
+        "547-4.1",
+        "547-5.2",
+        "547-2.4",
+        "547-5.5"
+      ],
+      "retrieved_hyde": [
+        "547-4.2",
+        "547-2.4",
+        "547-4.1",
+        "547-4.5",
+        "547-5.2"
+      ],
+      "relevant": [
+        "547-4.2"
+      ]
+    },
+    {
+      "id": "synthetic_087",
+      "question": "According to Toronto's noise by-law, what is the definition of 'ambient sound level'?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.8",
+        "591-1.1",
+        "591-1.1",
+        "591-2.9",
+        "591-2.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.8",
+        "591-1.1",
+        "591-2.1",
+        "591-1.1",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_088",
+      "question": "Does the noise by-law definition of 'construction' include activities like demolition and earth-moving?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-2.3",
+        "547-1.1",
+        "591-1.1",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-2.3",
+        "591-1.1",
+        "591-1.1",
+        "591-4.2"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_089",
+      "question": "How long do I have to appeal a decision if my noise exemption permit is rejected?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-2.9",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "547-2.8",
+        "547-2.9",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_090",
+      "question": "Who gets notified about a hearing for a noise exemption permit appeal?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-3.2",
+        "591-3.2",
+        "547-2.4",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_091",
+      "question": "What information do I need to provide when applying for a short-term rental licence in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-4.5",
+        "547-2.4",
+        "547-5.2"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-3.1",
+        "547-3.3",
+        "547-2.4",
+        "591-3.2"
+      ],
+      "relevant": [
+        "547-2.4"
+      ]
+    },
+    {
+      "id": "synthetic_092",
+      "question": "If I run a short-term rental business with partners, what am I required to do when applying for a licence?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.2",
+        "547-3.1",
+        "547-4.1",
+        "547-2.4",
+        "547-4.5"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-3.1",
+        "547-2.4",
+        "547-5.2",
+        "547-2.12"
+      ],
+      "relevant": [
+        "547-2.4"
+      ]
+    },
+    {
+      "id": "synthetic_093",
+      "question": "Where should I display my operator registration number when advertising my short-term rental on Airbnb or other platforms?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-1.3",
+        "547-3.7",
+        "547-1.4",
+        "547-4.3",
+        "547-3.3"
+      ],
+      "retrieved_hyde": [
+        "547-1.3",
+        "547-4.1",
+        "547-3.3",
+        "547-4.3",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-4.3"
+      ]
+    },
+    {
+      "id": "synthetic_094",
+      "question": "Do all short-term rental registrations in Toronto receive a unique identification number?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-4.3",
+        "547-4.1",
+        "547-1.4",
+        "547-1.1",
+        "547-4.4"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-1.3",
+        "547-3.3",
+        "547-4.3",
+        "547-2.1"
+      ],
+      "relevant": [
+        "547-4.3"
+      ]
+    },
+    {
+      "id": "synthetic_095",
+      "question": "What are the noise limits for amplified sound in Toronto residential areas during nighttime hours?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.1",
+        "591-2.8",
+        "591-2.8",
+        "591-3.2",
+        "591-2.4"
+      ],
+      "retrieved_hyde": [
+        "591-2.8",
+        "591-2.8",
+        "591-2.1",
+        "591-1.1",
+        "591-2.3"
+      ],
+      "relevant": [
+        "591-2.1"
+      ]
+    },
+    {
+      "id": "synthetic_096",
+      "question": "If the ambient noise level in my neighborhood is already high, am I allowed to emit amplified sound at that same level?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.1",
+        "591-2.8",
+        "591-2.8",
+        "591-2.5",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.1",
+        "591-2.8",
+        "591-2.8",
+        "591-1.1",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-2.1"
+      ]
+    },
+    {
+      "id": "synthetic_097",
+      "question": "When was the unreasonable and persistent noise by-law last updated?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-2.9",
+        "591-2.5",
+        "591-3.1",
+        "547-3.3"
+      ],
+      "retrieved_hyde": [
+        "591-2.6",
+        "547-5.5",
+        "591-2.4",
+        "591-3.2",
+        "591-2.3"
+      ],
+      "relevant": [
+        "591-2.9"
+      ]
+    },
+    {
+      "id": "synthetic_098",
+      "question": "If I'm making noise that's normally allowed under the by-law but it becomes unreasonable and persistent, what do I need to do?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-2.9",
+        "591-1.1",
+        "591-3.1",
+        "591-3.2",
+        "591-2.5"
+      ],
+      "retrieved_hyde": [
+        "591-2.8",
+        "591-2.1",
+        "591-3.2",
+        "591-1.1",
+        "591-4.3"
+      ],
+      "relevant": [
+        "591-2.9"
+      ]
+    },
+    {
+      "id": "synthetic_099",
+      "question": "What is a short-term rental company required to do with communications from Municipal Licensing and Standards?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.7",
+        "547-3.1",
+        "547-1.2",
+        "547-5.2",
+        "547-4.1"
+      ],
+      "retrieved_hyde": [
+        "547-3.1",
+        "547-2.4",
+        "547-3.7",
+        "547-4.5",
+        "547-5.2"
+      ],
+      "relevant": [
+        "547-3.7"
+      ]
+    },
+    {
+      "id": "synthetic_100",
+      "question": "Who decides the format and manner in which short-term rental companies must communicate Municipal Licensing and Standards requirements to their operators?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.7",
+        "547-4.1",
+        "547-3.1",
+        "547-1.3",
+        "547-3.2"
+      ],
+      "retrieved_hyde": [
+        "547-3.7",
+        "547-5.5",
+        "547-3.1",
+        "547-2.4",
+        "547-5.2"
+      ],
+      "relevant": [
+        "547-3.7"
+      ]
+    },
+    {
+      "id": "synthetic_101",
+      "question": "What time can I use a power device on a Saturday morning?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.6",
+        "591-1.1",
+        "591-2.3",
+        "591-2.4",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.6",
+        "591-1.1",
+        "591-2.3",
+        "591-3.2",
+        "591-2.4"
+      ],
+      "relevant": [
+        "591-2.6"
+      ]
+    },
+    {
+      "id": "synthetic_102",
+      "question": "Are there any exceptions to the noise rules for power devices?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.6",
+        "591-3.2",
+        "591-2.8",
+        "591-1.1",
+        "591-2.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.3",
+        "591-2.6",
+        "591-2.5",
+        "591-2.4",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-2.6"
+      ]
+    },
+    {
+      "id": "synthetic_103",
+      "question": "How far in advance must notice be given to nearby residents before starting continuous concrete pouring or large crane work?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-2.3",
+        "591-1.1",
+        "591-3.2",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-4.3",
+        "591-2.3",
+        "591-3.2",
+        "591-2.4"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_104",
+      "question": "What is the notification radius for residents who need to be informed about large crane work in Toronto?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-3.2",
+        "591-4.3",
+        "591-2.4",
+        "591-1.1",
+        "547-4.1"
+      ],
+      "retrieved_hyde": [
+        "591-3.2",
+        "591-4.3",
+        "547-2.4",
+        "591-2.4",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_105",
+      "question": "How long do I have to tell Municipal Licensing and Standards if my address or contact information changes after I get my short-term rental licence?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-4.5",
+        "547-2.3",
+        "547-5.5"
+      ],
+      "retrieved_hyde": [
+        "547-2.3",
+        "547-4.1",
+        "547-2.4",
+        "547-3.1",
+        "547-2.1"
+      ],
+      "relevant": [
+        "547-2.3"
+      ]
+    },
+    {
+      "id": "synthetic_106",
+      "question": "What is the difference between reporting a change in my licence application information versus reporting a breach of screening criteria?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.3",
+        "547-2.12",
+        "547-2.4",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "547-2.3",
+        "547-2.12",
+        "547-2.4",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "547-2.3"
+      ]
+    },
+    {
+      "id": "synthetic_107",
+      "question": "Can the Executive Director revoke my short-term rental registration if it was issued by mistake?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-2.11",
+        "547-2.7",
+        "547-2.13",
+        "547-3.3",
+        "547-2.9"
+      ],
+      "retrieved_hyde": [
+        "547-2.9",
+        "547-2.13",
+        "547-1.3",
+        "547-2.8",
+        "547-2.3"
+      ],
+      "relevant": [
+        "547-2.11"
+      ]
+    },
+    {
+      "id": "synthetic_108",
+      "question": "If my registration gets revoked because of a clerical error, am I allowed to apply for a new registration?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.11",
+        "547-2.7",
+        "547-2.12",
+        "547-2.2",
+        "547-4"
+      ],
+      "retrieved_hyde": [
+        "547-2.11",
+        "547-2.9",
+        "547-2.8",
+        "547-2.12",
+        "547-2.1"
+      ],
+      "relevant": [
+        "547-2.11"
+      ]
+    },
+    {
+      "id": "synthetic_109",
+      "question": "What are the main grounds on which Toronto can deny a short-term rental licence or registration?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.4",
+        "547-2.12",
+        "547-1.3",
+        "547-1.2",
+        "547-2.12"
+      ],
+      "retrieved_hyde": [
+        "547-4.1",
+        "547-2.4",
+        "547-2.12",
+        "547-1.2",
+        "547-2.8"
+      ],
+      "relevant": [
+        "547-2.12"
+      ]
+    },
+    {
+      "id": "synthetic_110",
+      "question": "Can the City deny my short-term rental licence renewal if I've breached the zoning by-law?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.4",
+        "547-3.1",
+        "547-1.1",
+        "547-4.1",
+        "547-2.4"
+      ],
+      "retrieved_hyde": [
+        "547-2.12",
+        "547-2.8",
+        "547-2.4",
+        "547-2.12",
+        "547-2.9"
+      ],
+      "relevant": [
+        "547-2.12"
+      ]
+    },
+    {
+      "id": "synthetic_111",
+      "question": "If I broker short-term rental reservations for my own home that I live in, do I need to register as a short-term rental company under Toronto by-laws?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.3",
+        "547-1.2",
+        "547-3.5",
+        "547-3.4",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "547-4.2",
+        "547-1.1",
+        "547-1.3",
+        "547-1.2"
+      ],
+      "relevant": [
+        "547-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_112",
+      "question": "Can multiple people who work together to run a short-term rental business be held responsible for each other's actions?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.1",
+        "547-1.2",
+        "547-2.4",
+        "547-3.6",
+        "547-3.1"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "547-1.3",
+        "591-4.1",
+        "547-2.4",
+        "547-4.2"
+      ],
+      "relevant": [
+        "547-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_113",
+      "question": "If I use a short-term rental company to help me register with Toronto's Municipal Licensing and Standards, what information of mine might be shared with the City?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-5.2",
+        "547-3.3",
+        "547-3.4"
+      ],
+      "retrieved_hyde": [
+        "547-3.2",
+        "547-5.2",
+        "547-4.1",
+        "547-3.1",
+        "547-4.5"
+      ],
+      "relevant": [
+        "547-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_114",
+      "question": "What must a short-term rental company do before they can submit my registration application on my behalf?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-1.2",
+        "547-3.4",
+        "547-2.13"
+      ],
+      "retrieved_hyde": [
+        "547-3.1",
+        "547-4.1",
+        "547-3.2",
+        "547-2.4",
+        "547-3.4"
+      ],
+      "relevant": [
+        "547-3.2"
+      ]
+    },
+    {
+      "id": "synthetic_115",
+      "question": "Can a short-term rental company require me to use arbitration instead of going to court if there's a dispute?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.5",
+        "547-2.13",
+        "547-3.1",
+        "547-3.6",
+        "547-5.2"
+      ],
+      "retrieved_hyde": [
+        "547-3.5",
+        "547-1.3",
+        "547-5.2",
+        "547-2.4",
+        "591-2.8"
+      ],
+      "relevant": [
+        "547-3.5"
+      ]
+    },
+    {
+      "id": "synthetic_116",
+      "question": "What happens if a short-term rental platform's terms of service include a clause saying disputes must be resolved under the laws of another jurisdiction?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.5",
+        "547-3.6",
+        "547-5.5",
+        "547-3.4",
+        "591-4.3"
+      ],
+      "retrieved_hyde": [
+        "547-3.5",
+        "547-3.6",
+        "547-2.4",
+        "547-1.3",
+        "547-5.2"
+      ],
+      "relevant": [
+        "547-3.5"
+      ]
+    },
+    {
+      "id": "synthetic_117",
+      "question": "What does the abbreviation 'GO' stand for in Toronto's noise by-law?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-5.2",
+        "591-3.1",
+        "591-1.1",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-5.2",
+        "591-1.1",
+        "591-1.1",
+        "591-3.1",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-5.1"
+      ]
+    },
+    {
+      "id": "synthetic_118",
+      "question": "Which railway companies are defined in the noise by-law definitions section?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "591-5.2",
+        "591-4.5",
+        "591-1.1",
+        "547-4",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-5.2",
+        "591-2.4",
+        "547-1.1",
+        "591-1.1",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-5.1"
+      ]
+    },
+    {
+      "id": "synthetic_119",
+      "question": "Who has the authority to issue interpretation bulletins for short-term rental regulations in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-5.2",
+        "547-5.4",
+        "547-3.7",
+        "591-3.2",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-2.4",
+        "547-1.1",
+        "547-5.2",
+        "547-5.5",
+        "547-3.7"
+      ],
+      "relevant": [
+        "547-5.4"
+      ]
+    },
+    {
+      "id": "synthetic_120",
+      "question": "Are interpretation bulletins and guidelines issued by the Executive Director required to be made public?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-5.4",
+        "547-5.1",
+        "591-3.2",
+        "547-4.5",
+        "547-2.4"
+      ],
+      "retrieved_hyde": [
+        "547-5.4",
+        "547-5.5",
+        "547-2.4",
+        "547-5.2",
+        "547-4.1"
+      ],
+      "relevant": [
+        "547-5.4"
+      ]
+    },
+    {
+      "id": "synthetic_121",
+      "question": "What types of documents can the Executive Director examine during an audit of a short-term rental operator?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-5.1",
+        "547-5.2",
+        "547-3.2",
+        "547-4.1",
+        "547-5.5"
+      ],
+      "retrieved_hyde": [
+        "547-5.1",
+        "547-5.2",
+        "547-3.2",
+        "547-4.1",
+        "547-4.5"
+      ],
+      "relevant": [
+        "547-5.1"
+      ]
+    },
+    {
+      "id": "synthetic_122",
+      "question": "If the Executive Director audits my short-term rental business, what am I required to do?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-5.2",
+        "547-5.1",
+        "547-4.1",
+        "547-3.1",
+        "547-2.13"
+      ],
+      "retrieved_hyde": [
+        "547-5.1",
+        "547-5.2",
+        "547-4.5",
+        "547-2.4",
+        "547-4.4"
+      ],
+      "relevant": [
+        "547-5.1"
+      ]
+    },
+    {
+      "id": "synthetic_123",
+      "question": "Can a Toronto By-law Enforcement Officer enter my property to inspect for noise by-law violations?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-4.2",
+        "591-4.3",
+        "547-5.2",
+        "591-1.1",
+        "591-3.1"
+      ],
+      "retrieved_hyde": [
+        "591-4.2",
+        "591-4.3",
+        "547-5.2",
+        "591-2.1",
+        "547-2.12"
+      ],
+      "relevant": [
+        "591-4.2"
+      ]
+    },
+    {
+      "id": "synthetic_124",
+      "question": "What can a By-law Enforcement Officer do during a noise inspection at my property?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-4.2",
+        "591-2.1",
+        "591-3.1",
+        "547-5.2",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-4.2",
+        "591-2.1",
+        "547-5.2",
+        "591-3.1",
+        "547-2.12"
+      ],
+      "relevant": [
+        "591-4.2"
+      ]
+    },
+    {
+      "id": "synthetic_125",
+      "question": "What is considered a point of reception according to Toronto's noise by-law?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.8",
+        "591-2.1",
+        "591-2.5",
+        "591-1.1",
+        "591-2.8"
+      ],
+      "retrieved_hyde": [
+        "591-1.1",
+        "591-2.8",
+        "591-3.2",
+        "591-2.1",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_126",
+      "question": "Can an enclosed balcony be considered a point of reception for measuring noise from outside my property?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-1.1",
+        "591-2.8",
+        "591-2.1",
+        "591-2.8",
+        "591-3.2"
+      ],
+      "retrieved_hyde": [
+        "591-2.8",
+        "591-1.1",
+        "591-2.1",
+        "591-1.1",
+        "591-2.8"
+      ],
+      "relevant": [
+        "591-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_127",
+      "question": "What is the maximum sound level allowed from a residential air conditioner indoors during nighttime hours?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.8",
+        "591-2.8",
+        "591-2.1",
+        "591-2.5",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.8",
+        "591-2.8",
+        "591-2.1",
+        "591-3.2",
+        "591-2.5"
+      ],
+      "relevant": [
+        "591-2.8"
+      ]
+    },
+    {
+      "id": "synthetic_128",
+      "question": "When can a By-law Enforcement Officer measure residential air conditioner noise from an indoor point instead of outdoors?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-2.8",
+        "591-2.8",
+        "591-2.1",
+        "591-2.5",
+        "591-1.1"
+      ],
+      "retrieved_hyde": [
+        "591-2.8",
+        "591-2.8",
+        "591-2.1",
+        "591-3.2",
+        "591-1.1"
+      ],
+      "relevant": [
+        "591-2.8"
+      ]
+    },
+    {
+      "id": "synthetic_129",
+      "question": "When was the noise by-law section 591-5.2 about prohibited locations adopted by Toronto City Council?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-5.2",
+        "591-2.4",
+        "591-2.9",
+        "591-1.1",
+        "547-5.5"
+      ],
+      "retrieved_hyde": [
+        "547-5.5",
+        "591-5.2",
+        "591-4.2",
+        "547-3.2",
+        "547-2.4"
+      ],
+      "relevant": [
+        "591-5.2"
+      ]
+    },
+    {
+      "id": "synthetic_130",
+      "question": "If I want to know about noise rules specifically in Toronto parks, which chapter should I refer to?",
+      "domain": "noise",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "591-5.2",
+        "547-2.5",
+        "591-2.4",
+        "591-3.2",
+        "591-2.9"
+      ],
+      "retrieved_hyde": [
+        "591-5.2",
+        "591-3.2",
+        "591-2.4",
+        "591-3.2",
+        "591-3.2"
+      ],
+      "relevant": [
+        "591-5.2"
+      ]
+    },
+    {
+      "id": "synthetic_131",
+      "question": "How are official communications from Municipal Licensing and Standards delivered to short-term rental applicants and licensees?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.7",
+        "547-3.1",
+        "547-5.5",
+        "547-4.1",
+        "547-2.4"
+      ],
+      "retrieved_hyde": [
+        "547-2.4",
+        "547-5.5",
+        "547-3.7",
+        "591-4.3",
+        "547-3.1"
+      ],
+      "relevant": [
+        "547-5.5"
+      ]
+    },
+    {
+      "id": "synthetic_132",
+      "question": "When is an e-mail from Municipal Licensing and Standards considered to have been officially received by a short-term rental operator?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-5.5",
+        "547-3.1",
+        "547-4.1",
+        "547-2.4",
+        "547-3.7"
+      ],
+      "retrieved_hyde": [
+        "547-5.5",
+        "547-3.1",
+        "547-4.1",
+        "547-4.5",
+        "547-2.1"
+      ],
+      "relevant": [
+        "547-5.5"
+      ]
+    },
+    {
+      "id": "synthetic_133",
+      "question": "If I want to appeal a decision about my short-term rental registration, do I need to submit my request in writing?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": false,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-4.1",
+        "547-3.1",
+        "547-2.4",
+        "591-3.2",
+        "547-3.2"
+      ],
+      "retrieved_hyde": [
+        "547-2.9",
+        "547-2.4",
+        "591-3.2",
+        "547-4.1",
+        "547-2.12"
+      ],
+      "relevant": [
+        "547-2.10"
+      ]
+    },
+    {
+      "id": "synthetic_134",
+      "question": "Under what circumstances can I request an oral or electronic hearing instead of a written process for my short-term rental registration decision?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.10",
+        "547-4.1",
+        "547-2.4",
+        "547-3.2",
+        "547-2.13"
+      ],
+      "retrieved_hyde": [
+        "547-2.10",
+        "547-2.4",
+        "547-4.1",
+        "547-2.13",
+        "547-2.8"
+      ],
+      "relevant": [
+        "547-2.10"
+      ]
+    },
+    {
+      "id": "synthetic_135",
+      "question": "Do short-term rental companies in Toronto need to publish their complaint procedures?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-2.13",
+        "547-3.6",
+        "547-5.2",
+        "547-3.1",
+        "547-3.7"
+      ],
+      "retrieved_hyde": [
+        "547-3.3",
+        "547-3.6",
+        "547-5.2",
+        "547-4.5",
+        "547-2.4"
+      ],
+      "relevant": [
+        "547-3.6"
+      ]
+    },
+    {
+      "id": "synthetic_136",
+      "question": "What types of issues must a short-term rental company's published complaint procedure address?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-3.6",
+        "547-3.1",
+        "547-2.13",
+        "547-3.7",
+        "547-1.1"
+      ],
+      "retrieved_hyde": [
+        "547-3.6",
+        "547-5.2",
+        "547-3.1",
+        "547-1.3",
+        "547-4.5"
+      ],
+      "relevant": [
+        "547-3.6"
+      ]
+    },
+    {
+      "id": "synthetic_137",
+      "question": "How long is a short-term rental licence valid for in Toronto?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-3.1",
+        "547-3.3",
+        "547-2.2",
+        "547-2.4",
+        "547-2.1"
+      ],
+      "retrieved_hyde": [
+        "547-3.1",
+        "547-2.4",
+        "547-4.1",
+        "547-2.2",
+        "547-4.5"
+      ],
+      "relevant": [
+        "547-2.2"
+      ]
+    },
+    {
+      "id": "synthetic_138",
+      "question": "What happens if I don't renew my short-term rental licence within 90 days of the renewal date?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": false,
+      "retrieved_no_hyde": [
+        "547-2.2",
+        "547-2.4",
+        "547-2.13",
+        "547-4.5",
+        "547-2.3"
+      ],
+      "retrieved_hyde": [
+        "547-1.3",
+        "547-2.4",
+        "547-3.3",
+        "547-2.1",
+        "547-2.2"
+      ],
+      "relevant": [
+        "547-2.2"
+      ]
+    },
+    {
+      "id": "synthetic_139",
+      "question": "What does the by-law consider a dwelling unit for short-term rental purposes?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.1",
+        "547-1.1",
+        "547-4.2",
+        "547-2.12",
+        "547-4.4"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "547-1.1",
+        "547-4.2",
+        "547-2.1",
+        "547-4.1"
+      ],
+      "relevant": [
+        "547-1.1"
+      ]
+    },
+    {
+      "id": "synthetic_140",
+      "question": "Does a short-term rental dwelling unit need to have its own kitchen and bathroom facilities?",
+      "domain": "short_term_rental",
+      "recall_at_3_no_hyde": true,
+      "recall_at_3_hyde": true,
+      "retrieved_no_hyde": [
+        "547-1.1",
+        "547-4.2",
+        "547-1.1",
+        "547-1.2",
+        "547-2.12"
+      ],
+      "retrieved_hyde": [
+        "547-1.1",
+        "547-5.2",
+        "547-4.2",
+        "547-2.1",
+        "547-4.5"
+      ],
+      "relevant": [
+        "547-1.1"
+      ]
+    }
+  ]
+}

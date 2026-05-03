@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "synthetic_001",
+    "domain": "noise",
+    "question": "What times of day am I not allowed to repair or modify my car if the sound is audible from outside my property?",
+    "answer": "You cannot repair, rebuild, modify or test a vehicle if the sound is clearly audible at a point of reception from 9 p.m. until 7 a.m. the next day. However, on Saturdays, Sundays and statutory holidays, this restriction extends until 9 a.m. instead of 7 a.m.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-2.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_002",
+    "domain": "noise",
+    "question": "Is it legal to rev my engine loudly while parked on a Toronto street?",
+    "answer": "No. According to \u00a7 591-2.5, no person shall emit or cause unnecessary noise from a stationary motor vehicle that is persistent noise, such as engine revving, if it is clearly audible at a point of reception.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-2.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_003",
+    "domain": "short_term_rental",
+    "question": "Can Toronto Municipal Licensing and Standards refer a short-term rental licence matter to the Toronto Licensing Tribunal?",
+    "answer": "Yes, at any time, Municipal Licensing and Standards may refer any matter in respect of which a licence may be refused, suspended, revoked, or have conditions imposed on it to the Toronto Licensing Tribunal for a hearing.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_004",
+    "domain": "short_term_rental",
+    "question": "What types of licence actions can trigger a referral to the Toronto Licensing Tribunal for a short-term rental?",
+    "answer": "A referral to the Toronto Licensing Tribunal can occur for matters involving licence refusal, suspension, revocation, or the imposition of conditions on the licence.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_005",
+    "domain": "noise",
+    "question": "Does a motor-assisted bicycle count as a motorcycle under Toronto's noise by-law?",
+    "answer": "No. A motorcycle is defined as a self-propelled vehicle with a seat or saddle designed to travel on not more than three wheels, and includes a motor scooter, but explicitly does not include a motor-assisted bicycle. Motor-assisted bicycles are classified as motor vehicles under the Highway Traffic Act definition, but are not motorcycles.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_006",
+    "domain": "noise",
+    "question": "What does 'living area' mean in Toronto's noise by-law?",
+    "answer": "A living area is any area that includes the premises of a dwelling or a workplace.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_007",
+    "domain": "noise",
+    "question": "What does dB(A) mean in Toronto's noise by-law?",
+    "answer": "dB(A) is the sound level in decibels obtained when using a sound level meter with the A-weighting.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_008",
+    "domain": "noise",
+    "question": "Does government construction work on city infrastructure need to follow noise exemptions?",
+    "answer": "According to the by-law, government work conducted by the City, the Province of Ontario, the Government of Canada and their agencies or agents is defined separately, indicating it may be subject to different rules or exemptions under the noise by-law.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_009",
+    "domain": "noise",
+    "question": "What is the maximum sound level allowed for amplified sound under a noise exemption permit in Toronto?",
+    "answer": "For amplified sound, the sound level shall not exceed 85 dB(A) or 105 dB(C), measured as Leq for a ten-minute period.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_010",
+    "domain": "noise",
+    "question": "If I can't post a physical notice of my exemption permit at my event location, what alternative can the Executive Director allow?",
+    "answer": "The Executive Director may permit the permit holder to post the notice online in a conspicuous manner instead of at the physical location.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_011",
+    "domain": "short_term_rental",
+    "question": "How long can the Executive Director suspend a short-term rental licence or registration for immediate danger?",
+    "answer": "The suspension shall not exceed 14 days.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.13"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_012",
+    "domain": "short_term_rental",
+    "question": "If my short-term rental is suspended for immediate danger, am I entitled to a hearing before the suspension takes effect?",
+    "answer": "No, the Executive Director may suspend the licence or registration without a hearing. However, before suspending, the Executive Director must provide the licensee with reasons for the suspension, either orally or in writing, and an opportunity to respond to them.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.13"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_013",
+    "domain": "noise",
+    "question": "How long do Councillors have to respond to a Level 1 or Level 2 noise exemption permit application before it can be approved?",
+    "answer": "Councillors have 14 calendar days from the notice to either respond or not respond. If they don't respond within this period or respond with no objection, the application can proceed.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_014",
+    "domain": "noise",
+    "question": "What happens if I didn't comply with the terms of my previous noise exemption permit when I apply for a new one?",
+    "answer": "The Executive Director will not issue you a new exemption permit. One of the conditions that must be met is that the applicant has complied, to the satisfaction of the Executive Director, with the last exemption permit issued to them.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_015",
+    "domain": "noise",
+    "question": "What factors does the Exemption Permit Screening Criteria consider when categorizing events or activities?",
+    "answer": "The Exemption Permit Screening Criteria considers factors including the duration of the event or activity, the total number of participants expected, the hours of the event or activity, the location in relation to a residential zone, the applicant's historical level of compliance with Chapter 591, and any other criteria determined by the Executive Director.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_016",
+    "domain": "noise",
+    "question": "Can the Exemption Permit Screening Criteria be changed, and if so, who can make those changes?",
+    "answer": "Yes, the Exemption Permit Screening Criteria may be amended by the Executive Director from time to time.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_017",
+    "domain": "noise",
+    "question": "Can train whistles be used at the railway crossing on Sheppard Avenue East near Agincourt Go Station?",
+    "answer": "No, the use of whistles on railway equipment at this crossing is prohibited, except as otherwise provided in section 23.1 of the Railway Safety Act.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-5.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_018",
+    "domain": "noise",
+    "question": "Which streets in Toronto have prohibited railway whistle use according to this by-law?",
+    "answer": "Sheppard Avenue East (near Agincourt Go Station), Marilyn Avenue (near Agincourt Go Station), Danforth Road (west of Midland Avenue), and Corvette Avenue (pedestrian crossing).",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-5.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_019",
+    "domain": "short_term_rental",
+    "question": "When did the requirement for short-term rental companies to create accounts for Municipal Licensing and Standards come into effect?",
+    "answer": "June 30, 2024",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-3.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_020",
+    "domain": "short_term_rental",
+    "question": "What are short-term rental companies required to do if Municipal Licensing and Standards requests operator and guest accounts?",
+    "answer": "Short-term rental companies must create operator and guest accounts on their platforms as requested by Municipal Licensing and Standards for investigating compliance with the chapter. They are also prohibited from obstructing access to these accounts in any manner.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-3.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_021",
+    "domain": "short_term_rental",
+    "question": "What documents related to short-term rentals must include an operator's registration number?",
+    "answer": "Invoices, contracts, receipts, and similar documents related to short-term rentals must include the operator's registration number.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-1.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_022",
+    "domain": "short_term_rental",
+    "question": "Am I required to put my registration number on the receipt I give to guests when they pay for their stay?",
+    "answer": "Yes, you must ensure that any receipt or similar document related to a short-term rental includes your operator's registration number.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-1.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_023",
+    "domain": "noise",
+    "question": "According to Toronto by-laws, what types of animal noise are specifically prohibited?",
+    "answer": "Persistent noise from animals is prohibited, including barking, calling, whining, or other similar persistent noise.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-2.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_024",
+    "domain": "noise",
+    "question": "If my neighbor's dog is making persistent barking noise, what does the by-law say they're required to do?",
+    "answer": "No person shall cause or permit persistent noise, including barking, to be made by any animal kept or used for any purpose. This means the animal owner is responsible for preventing their pet from making persistent noise.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-2.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_025",
+    "domain": "noise",
+    "question": "What time can I start construction work on a Saturday morning in Toronto?",
+    "answer": "You can start construction work at 7 a.m. on Saturday mornings. However, you must stop by 9 a.m. on Saturdays, as construction that is clearly audible is not permitted from 9 a.m. onwards on Saturdays until 7 a.m. the next day.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-2.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_026",
+    "domain": "noise",
+    "question": "Am I allowed to do construction on a statutory holiday in Toronto?",
+    "answer": "No, construction that results in sound clearly audible from construction or construction equipment is not permitted all day on statutory holidays.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-2.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_027",
+    "domain": "short_term_rental",
+    "question": "What emergency information must a short-term rental operator give to guests in Toronto?",
+    "answer": "Operators must provide emergency contact information for a person available during the entire rental period and information about how to use the 9-1-1 emergency service.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-4.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_028",
+    "domain": "short_term_rental",
+    "question": "Where should a short-term rental operator post the building exit diagram for guests?",
+    "answer": "The operator must post a physical copy of the exit diagram in a conspicuous place within the short-term rental property for the duration of the guest's rental period.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-4.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_029",
+    "domain": "short_term_rental",
+    "question": "How many days do I have to respond if I receive a notice about my short-term rental registration being revoked?",
+    "answer": "You have 10 days from the date of the notice to deliver a written response to Municipal Licensing and Standards.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.9"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_030",
+    "domain": "short_term_rental",
+    "question": "Who can revoke a short-term rental operator's registration in Toronto?",
+    "answer": "Municipal Licensing and Standards may revoke an operator's registration if there are reasonable grounds to believe the operator is or should not be entitled to registration.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.9"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_031",
+    "domain": "short_term_rental",
+    "question": "What do I need to submit when applying for a short-term rental registration or renewing it?",
+    "answer": "You need to complete the approved forms and provide to Municipal Licensing and Standards any information the Executive Director requires, along with all applicable fees.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_032",
+    "domain": "short_term_rental",
+    "question": "What happens if Municipal Licensing and Standards finds reasonable grounds that I'm not eligible for a short-term rental registration?",
+    "answer": "They will send you a notice informing you of this fact before deciding on your application.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_033",
+    "domain": "short_term_rental",
+    "question": "When did the short-term rental registration requirements come into force in Toronto?",
+    "answer": "September 30, 2024",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-4.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_034",
+    "domain": "short_term_rental",
+    "question": "If I have a registration to operate an entire-unit rental, what is the maximum number of nights per year I can rent it out?",
+    "answer": "180 nights per calendar year",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-4.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_035",
+    "domain": "short_term_rental",
+    "question": "What is the minimum number of consecutive days required for a rental to be considered a short-term rental under Toronto by-laws?",
+    "answer": "A rental period of less than 28 consecutive days is considered a short-term rental under Toronto by-laws.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_036",
+    "domain": "short_term_rental",
+    "question": "Does a bed and breakfast operation need to follow the short-term rental rules in Toronto?",
+    "answer": "Yes, a bed and breakfast is explicitly included in the definition of short-term rental and is therefore subject to these by-law regulations.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_037",
+    "domain": "short_term_rental",
+    "question": "How long do short-term rental operators need to keep records of their transactions?",
+    "answer": "Three years following the date of the transaction.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-4.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_038",
+    "domain": "short_term_rental",
+    "question": "What specific information must I include when keeping records of my short-term rental transactions?",
+    "answer": "The number of nights rented, the nightly and total price charged, whether it was an entire-unit or partial-unit rental, and any other information required by the Executive Director.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-4.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_039",
+    "domain": "short_term_rental",
+    "question": "What happens to my short-term rental licence if I apply for renewal and pay all the fees on time?",
+    "answer": "If you have applied for renewal of a licence and remitted all applicable fees, the licence shall be deemed to continue until the renewal is granted, or until the time for requesting a hearing has expired, or if a hearing is requested, until the Toronto Licensing Tribunal has disposed of the application.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_040",
+    "domain": "short_term_rental",
+    "question": "When does a short-term rental licence stop being valid during the renewal process if a hearing is requested?",
+    "answer": "The licence continues until the Toronto Licensing Tribunal has disposed of the application, if a hearing has been requested during the renewal process.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_041",
+    "domain": "noise",
+    "question": "How many days after mailing is a noise compliance order considered officially received?",
+    "answer": "Three days after it is mailed, the order is deemed to have been given.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-4.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_042",
+    "domain": "noise",
+    "question": "If I rent my apartment and the landlord doesn't own the building, who needs to receive a noise violation notice?",
+    "answer": "Both the registered property owner and the occupant of the land must be served with the notice.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-4.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_043",
+    "domain": "short_term_rental",
+    "question": "When was the short-term rental by-law adopted by Toronto City Council?",
+    "answer": "May 24, 2018",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-5.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_044",
+    "domain": "short_term_rental",
+    "question": "What is the by-law number for the short-term rental administrative provisions?",
+    "answer": "By-law 613-2018",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-5.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_045",
+    "domain": "short_term_rental",
+    "question": "Can a short-term rental operator refuse to rent to someone because of their race or disability?",
+    "answer": "No. According to \u00a7 547-1.5 Section A, no person licensed or registered under this chapter shall discriminate on the basis of race, disability, or any other protected ground listed under the Human Rights Code. Section B specifically prohibits refusing service or entry to people with disabilities who are accompanied by service animals.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-1.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_046",
+    "domain": "short_term_rental",
+    "question": "What protected grounds are listed under the discrimination provisions for short-term rental operators?",
+    "answer": "The protected grounds include: race, ancestry, place of origin, colour, ethnic origin, citizenship, creed, sex, sexual orientation, gender identity, gender expression, age, marital status, family status, and disability.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-1.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_047",
+    "domain": "short_term_rental",
+    "question": "If my short-term rental registration was revoked last year, can I apply for a new registration this year?",
+    "answer": "No, you cannot apply for a registration in the year following a final revocation. According to \u00a7 547-2.12(D)(2), Municipal Licensing and Standards shall refuse to issue a registration where the person has had their registration finally revoked in the year prior to the date of application.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.12"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_048",
+    "domain": "short_term_rental",
+    "question": "What is the one-year lookback period used for in short-term rental registration decisions?",
+    "answer": "The one-year lookback period is used to determine grounds for denial of a licence or registration. Municipal Licensing and Standards reviews whether, in the year prior to the application date, the person applied and was refused a registration, had a registration revoked, or had a registration related to the same dwelling unit cancelled or revoked.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.12"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_049",
+    "domain": "noise",
+    "question": "Does the noise from my kids playing in the backyard count as unreasonable noise under Toronto's by-laws?",
+    "answer": "No. Children playing is explicitly listed as a commonplace household sound that is not considered unreasonable noise under \u00a7 591-1.1.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_050",
+    "domain": "noise",
+    "question": "What is the official definition of unreasonable noise in Toronto?",
+    "answer": "According to \u00a7 591-1.1, unreasonable noise is any noise or sound-induced vibration that would disturb the peace, rest, enjoyment, comfort, or convenience of a reasonable person in the circumstances.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_051",
+    "domain": "noise",
+    "question": "Who can enter my property to do remedial work if I don't fix a noise violation?",
+    "answer": "The Executive Director, or persons acting upon their instructions, may enter the lands at any reasonable time to do the work described in the order.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-4.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_052",
+    "domain": "noise",
+    "question": "If the city has to fix a noise problem on my property because I didn't comply with an order, who pays for it?",
+    "answer": "The person who failed to comply with the order pays for the remedial work done by the Executive Director or their representatives.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-4.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_053",
+    "domain": "noise",
+    "question": "What factors does the Executive Director consider when deciding what conditions to add to a noise exemption permit?",
+    "answer": "The Executive Director considers: (1) the duration and hours of the event or activity, (2) the total number of participants or attendees and type of activity, (3) the proximity of noise to residential areas and potential negative effects on residents, and (4) the applicant's compliance history with this chapter, including any previous exemption permits.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_054",
+    "domain": "noise",
+    "question": "Will the Executive Director consider my past compliance record when I apply for a noise exemption permit?",
+    "answer": "Yes, the Executive Director will consider your compliance with this chapter as part of their evaluation, including any previous exemption permits that may have been issued to you.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_055",
+    "domain": "short_term_rental",
+    "question": "What information must a short-term rental operator provide to someone advertising or renting out their property?",
+    "answer": "The operator must provide and maintain an account with the person using their full name, address, and registration number listed on their registration under this chapter.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-1.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_056",
+    "domain": "short_term_rental",
+    "question": "Where on a short-term rental advertisement must the registration number be displayed?",
+    "answer": "The registration number must be prominently displayed on the main page of any advertisement related to the short-term rental.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-1.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_057",
+    "domain": "noise",
+    "question": "What time can I receive a delivery at my restaurant without violating the noise by-law?",
+    "answer": "Restaurants are exempt from the loading and unloading noise restrictions under \u00a7 591-2.4, so deliveries can occur at any time, except as otherwise authorized by regulation under section 115.1 of the City of Toronto Act, 2006.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-2.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_058",
+    "domain": "noise",
+    "question": "During what hours is loading and unloading noise prohibited on a Sunday?",
+    "answer": "Loading and unloading noise is prohibited from 11 p.m. to 9 a.m. on Sundays.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-2.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_059",
+    "domain": "noise",
+    "question": "What are the noise limits for stationary sources like air conditioners in Toronto residential areas during nighttime hours?",
+    "answer": "The noise limit for stationary sources is 45 dB(A) measured at an outdoor point of reception in a living area from 11 p.m. to 7 a.m.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-2.8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_060",
+    "domain": "noise",
+    "question": "What is the maximum sound level allowed from a stationary source in my backyard between 7 a.m. and 11 p.m.?",
+    "answer": "The maximum sound level is 50 dB(A) when measured with a sound level meter at an outdoor point of reception in a living area from 7 a.m. to 11 p.m.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-2.8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_061",
+    "domain": "short_term_rental",
+    "question": "Can Municipal Licensing and Standards inspect a short-term rental property at any time?",
+    "answer": "No, Municipal Licensing and Standards may only inspect short-term rental premises at all reasonable times and in accordance with applicable requirements in the City of Toronto Act, 2006.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-5.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_062",
+    "domain": "short_term_rental",
+    "question": "What must a short-term rental operator do when Municipal Licensing and Standards conducts an inspection?",
+    "answer": "The short-term rental operator must attend the inspection and provide documents or things that may be relevant to the inspection.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-5.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_063",
+    "domain": "noise",
+    "question": "Are fire truck sirens allowed to make noise in Toronto, even during noise restriction hours?",
+    "answer": "Yes, sirens operated by Fire and Paramedic Services are lawful to emit under Section 591-3.1(A), which exempts them from noise restrictions for public safety purposes.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-3.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_064",
+    "domain": "noise",
+    "question": "Is waste collection permitted to generate noise under Toronto's noise by-laws?",
+    "answer": "Yes, waste collection is explicitly permitted to emit sound under Section 591-3.1(E), added by By-law 1102-2022.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-3.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_065",
+    "domain": "short_term_rental",
+    "question": "What information do I need to provide when applying for a short-term rental operator's registration in Toronto?",
+    "answer": "You must provide: the operator's name, phone number, and email address; the address of the short-term rental property; a description of which parts of the property will be used for short-term rental; a description of the type of building; and the name and telephone number of a 24-hour emergency contact person. You must also submit all applicable fees and comply with \u00a7 547-2.4.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-4.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_066",
+    "domain": "short_term_rental",
+    "question": "When was the short-term rental registration requirement last updated in Toronto?",
+    "answer": "The registration application and renewal requirements were amended on May 23, 2024 by By-law 503-2024.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-4.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_067",
+    "domain": "noise",
+    "question": "If I received a noise exemption permit before October 1, 2019, do the new noise by-law rules apply to me?",
+    "answer": "No, the new provisions do not apply to exemption permits granted before October 1, 2019, as long as you continue to comply with the conditions of your original permit and the permit is not revoked, terminated, or expired.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-4.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_068",
+    "domain": "noise",
+    "question": "What happens to noise enforcement cases that started before June 1, 2024 but weren't finished by that date?",
+    "answer": "Prosecutions and other enforcement processes that were commenced between October 1, 2019, and May 31, 2024, and had not been completed by June 1, 2024, shall be completed as if the chapter had not been amended on that date.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-4.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_069",
+    "domain": "short_term_rental",
+    "question": "What is the maximum fine for violating Toronto's short-term rental by-law?",
+    "answer": "The maximum fine is $100,000 for any person who contravenes any provision of the short-term rental chapter, if no other penalty is provided.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-5.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_070",
+    "domain": "short_term_rental",
+    "question": "Can a corporation's director or officer be held personally liable for the company's violation of short-term rental rules?",
+    "answer": "Yes, every director or officer of a corporation who commits, assents to, or acquiesces to a contravention is guilty of an offence and liable to a fine not exceeding $100,000 if no other penalty is provided.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-5.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_071",
+    "domain": "short_term_rental",
+    "question": "How long does a short-term rental company need to keep records of transactions on their platform?",
+    "answer": "Three years following the last day of the rental period.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-3.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_072",
+    "domain": "short_term_rental",
+    "question": "What information must a short-term rental company include in their transaction records?",
+    "answer": "The full name, address, and registration number of the operator; the number of nights rented; the nightly and total price charged; whether it was an entire-unit or partial-unit rental; and any other information required by the Executive Director.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-3.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_073",
+    "domain": "noise",
+    "question": "How far in advance do I need to apply for a noise exemption permit in Toronto?",
+    "answer": "You must file your application at least 28 calendar days prior to the start of the event or activity.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_074",
+    "domain": "noise",
+    "question": "What documents do I need to submit when applying for a noise exemption permit?",
+    "answer": "You must submit: (1) An application in the form prescribed by the Executive Director; (2) Any information relevant to the application as requested by the Executive Director, including reasons supporting the exemption permit, a noise mitigation plan, and a statement certified by a professional engineer or acoustical consultant for any sounds that are not technically or operationally feasible to control.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_075",
+    "domain": "short_term_rental",
+    "question": "What information do I need to provide when applying for a short-term rental company licence in Toronto?",
+    "answer": "You must provide: the company's registered business address in Ontario, the name, phone number, and e-mail address of a person responsible for responding to communications from Municipal Licensing and Standards, and details of the process by which the company will remove advertisements for unregistered short-term rental operators.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-3.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_076",
+    "domain": "short_term_rental",
+    "question": "What is required in a short-term rental company licence application regarding unregistered operators?",
+    "answer": "The application must include details of the process by which the company will remove advertisements for a short-term rental if its operator has not registered with Municipal Licensing and Standards.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-3.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_077",
+    "domain": "short_term_rental",
+    "question": "Do I need a licence from Municipal Licensing and Standards to run a short-term rental business in Toronto?",
+    "answer": "Yes, according to \u00a7 547-1.2, no person shall carry on the business of a short-term rental company unless they have obtained a licence from Municipal Licensing and Standards.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-1.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_078",
+    "domain": "short_term_rental",
+    "question": "What is the requirement for someone who wants to work as a short-term rental operator in Toronto?",
+    "answer": "According to \u00a7 547-1.2, no person shall carry on the business of a short-term rental operator unless they have registered as such with Municipal Licensing and Standards.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-1.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_079",
+    "domain": "short_term_rental",
+    "question": "What is the minimum age requirement to apply for a short-term rental registration in Toronto?",
+    "answer": "An applicant must be an individual person of at least 18 years of age.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_080",
+    "domain": "short_term_rental",
+    "question": "Can I hold multiple short-term rental registrations under this by-law?",
+    "answer": "No, a person cannot hold another registration under this chapter. Municipal Licensing and Standards will refuse to issue or renew a registration if the applicant already holds another registration.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_081",
+    "domain": "short_term_rental",
+    "question": "Can I sell my short-term rental license to someone else if I decide to stop operating?",
+    "answer": "No. According to \u00a7 547-2.1(C), no licence or registration issued under this chapter shall be sold or transferred.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_082",
+    "domain": "short_term_rental",
+    "question": "What do I need to have before I can legally operate a short-term rental business in Toronto?",
+    "answer": "You must have paid all applicable fees and received the physical licence, registration number, or other evidence of licence or registration. According to \u00a7 547-2.1(A), no person shall be licensed or registered to carry on a business until these conditions are met.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_083",
+    "domain": "noise",
+    "question": "What is the maximum fine for violating Toronto's noise by-law?",
+    "answer": "The maximum fine for contravening any provision of the noise chapter is $100,000.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-4.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_084",
+    "domain": "noise",
+    "question": "If I ignore a noise exemption permit that the city issued to me, what penalty could I face?",
+    "answer": "If you fail to comply with an exemption permit issued under this chapter, you are guilty of an offence and liable to a fine of no more than $100,000.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-4.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_085",
+    "domain": "short_term_rental",
+    "question": "Can I operate short-term rentals on multiple properties in Toronto at the same time?",
+    "answer": "No. According to \u00a7 547-4.2.A, an operator shall be deemed to have only one principal residence at any time, and \u00a7 547-4.2.B states that no operator shall rent or advertise a property for short-term rental unless it is the operator's principal residence at that time.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-4.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_086",
+    "domain": "short_term_rental",
+    "question": "What is the deadline for providing proof to Toronto's Municipal Licensing and Standards that my short-term rental property is my principal residence?",
+    "answer": "You must provide evidence within 10 days of being requested to do so by Municipal Licensing and Standards.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-4.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_087",
+    "domain": "noise",
+    "question": "According to Toronto's noise by-law, what is the definition of 'ambient sound level'?",
+    "answer": "Ambient sound level is the sound level that is present in the environment, produced by sound sources other than the source under assessment.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_088",
+    "domain": "noise",
+    "question": "Does the noise by-law definition of 'construction' include activities like demolition and earth-moving?",
+    "answer": "Yes, according to \u00a7 591-1.1, the definition of construction includes demolition, earth-moving, grading, excavating, and other similar activities.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_089",
+    "domain": "noise",
+    "question": "How long do I have to appeal a decision if my noise exemption permit is rejected?",
+    "answer": "You have 21 days from the date of the notice to file an appeal with the City Clerk.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_090",
+    "domain": "noise",
+    "question": "Who gets notified about a hearing for a noise exemption permit appeal?",
+    "answer": "All residents within 100 metres of the location where the event or activity is proposed to be held, as shown on the last revised assessment rolls, must be sent notice of the hearing. The applicant is responsible for the cost of this notification.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_091",
+    "domain": "short_term_rental",
+    "question": "What information do I need to provide when applying for a short-term rental licence in Toronto?",
+    "answer": "You need to complete the approved forms and provide to Municipal Licensing and Standards such information as the Executive Director may require, together with all applicable fees.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_092",
+    "domain": "short_term_rental",
+    "question": "If I run a short-term rental business with partners, what am I required to do when applying for a licence?",
+    "answer": "If the business is carried on by multiple persons, all those persons must provide their names and addresses, and must acknowledge that they may be held jointly and severally responsible for each other's actions regarding the business.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_093",
+    "domain": "short_term_rental",
+    "question": "Where should I display my operator registration number when advertising my short-term rental on Airbnb or other platforms?",
+    "answer": "Your operator registration number must be included in any advertisement of your short-term rental that you display or control.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-4.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_094",
+    "domain": "short_term_rental",
+    "question": "Do all short-term rental registrations in Toronto receive a unique identification number?",
+    "answer": "Yes, all registrations under this chapter are issued a unique number.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-4.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_095",
+    "domain": "noise",
+    "question": "What are the noise limits for amplified sound in Toronto residential areas during nighttime hours?",
+    "answer": "From 11 p.m. to 7 a.m., amplified sound or instrument sound in a living area cannot exceed 50 dB(A) or 65 dB(C), measured at an outdoor point of reception.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-2.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_096",
+    "domain": "noise",
+    "question": "If the ambient noise level in my neighborhood is already high, am I allowed to emit amplified sound at that same level?",
+    "answer": "No. Even if the ambient sound level is already above the maximum permitted, you cannot emit amplified sound that equals or exceeds that ambient sound level. You must stay within the baseline limits of 50 dB(A) or 65 dB(C) at night and 55 dB(A) or 70 dB(C) during the day.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-2.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_097",
+    "domain": "noise",
+    "question": "When was the unreasonable and persistent noise by-law last updated?",
+    "answer": "The by-law was amended on April 22, 2024 by By-law 268-2024.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-2.9"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_098",
+    "domain": "noise",
+    "question": "If I'm making noise that's normally allowed under the by-law but it becomes unreasonable and persistent, what do I need to do?",
+    "answer": "The Executive Director may require you to obtain an exemption permit under \u00a7 591-3.2, and you must obtain and comply with that permit.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-2.9"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_099",
+    "domain": "short_term_rental",
+    "question": "What is a short-term rental company required to do with communications from Municipal Licensing and Standards?",
+    "answer": "Every short-term rental company shall convey any communications issued by Municipal Licensing and Standards that relate to the requirements of this chapter to all operators listing or advertising their short-term rental with the company in a format and manner prescribed by the Executive Director.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-3.7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_100",
+    "domain": "short_term_rental",
+    "question": "Who decides the format and manner in which short-term rental companies must communicate Municipal Licensing and Standards requirements to their operators?",
+    "answer": "The Executive Director prescribes the format and manner in which communications must be conveyed to operators.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-3.7"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_101",
+    "domain": "noise",
+    "question": "What time can I use a power device on a Saturday morning?",
+    "answer": "Power devices can be used starting at 9 a.m. on Saturdays (as opposed to 8 a.m. on weekdays). They cannot be used from 7 p.m. until 9 a.m. on Saturdays.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-2.6"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_102",
+    "domain": "noise",
+    "question": "Are there any exceptions to the noise rules for power devices?",
+    "answer": "Yes, the noise restrictions do not apply to power devices used to maintain a golf course or public park, or to carry out City operations including services contracted by the City.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-2.6"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_103",
+    "domain": "noise",
+    "question": "How far in advance must notice be given to nearby residents before starting continuous concrete pouring or large crane work?",
+    "answer": "Notice must be distributed at least 7 days prior to the start of the activity to those within a 120 metre radius of the activity.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_104",
+    "domain": "noise",
+    "question": "What is the notification radius for residents who need to be informed about large crane work in Toronto?",
+    "answer": "Residents within a 120 metre radius of the activity must be notified.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_105",
+    "domain": "short_term_rental",
+    "question": "How long do I have to tell Municipal Licensing and Standards if my address or contact information changes after I get my short-term rental licence?",
+    "answer": "You must notify Municipal Licensing and Standards within six days of any change to information you provided in your licence application or renewal.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_106",
+    "domain": "short_term_rental",
+    "question": "What is the difference between reporting a change in my licence application information versus reporting a breach of screening criteria?",
+    "answer": "Changes to application information must be reported within six days, while breaches of screening criteria must be reported immediately.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.3"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_107",
+    "domain": "short_term_rental",
+    "question": "Can the Executive Director revoke my short-term rental registration if it was issued by mistake?",
+    "answer": "Yes, the Executive Director may revoke a registration at any time if it was issued or renewed due to a technological or clerical error.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.11"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_108",
+    "domain": "short_term_rental",
+    "question": "If my registration gets revoked because of a clerical error, am I allowed to apply for a new registration?",
+    "answer": "Yes, if your registration is revoked under this section due to a technological or clerical error, you are not prevented from reapplying for a registration at any time.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.11"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_109",
+    "domain": "short_term_rental",
+    "question": "What are the main grounds on which Toronto can deny a short-term rental licence or registration?",
+    "answer": "Toronto can deny a short-term rental licence or registration if: (1) the applicant's conduct gives reasonable grounds to believe they won't carry on the business in accordance with law and with integrity and honesty; (2) there are reasonable grounds to believe the business will result in a breach of the short-term rental chapter, zoning by-law, or any other law; or (3) the applicant is a corporation and its conduct or the conduct of its officers, directors, employees, or agents gives reasonable grounds to believe the business won't be carried on properly.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.12"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_110",
+    "domain": "short_term_rental",
+    "question": "Can the City deny my short-term rental licence renewal if I've breached the zoning by-law?",
+    "answer": "Yes. The City can deny your licence renewal if there are reasonable grounds to believe that carrying on the business has resulted in, or will result in, a breach of the zoning by-law or any other law.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.12"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_111",
+    "domain": "short_term_rental",
+    "question": "If I broker short-term rental reservations for my own home that I live in, do I need to register as a short-term rental company under Toronto by-laws?",
+    "answer": "No, this definition does not apply to a person who facilitates or brokers reservations for a short-term rental that is their principal residence or their immediate family's principal residence.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_112",
+    "domain": "short_term_rental",
+    "question": "Can multiple people who work together to run a short-term rental business be held responsible for each other's actions?",
+    "answer": "Yes, multiple persons acting together to carry on the business of a short-term rental company may be held jointly and severally responsible for each other's actions.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_113",
+    "domain": "short_term_rental",
+    "question": "If I use a short-term rental company to help me register with Toronto's Municipal Licensing and Standards, what information of mine might be shared with the City?",
+    "answer": "The short-term rental company must obtain your consent to collect, use, and potentially disclose your personal information to the City for the administration of the short-term rental chapter and the Municipal Accommodation Tax (Chapter 758).",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_114",
+    "domain": "short_term_rental",
+    "question": "What must a short-term rental company do before they can submit my registration application on my behalf?",
+    "answer": "The short-term rental company must obtain your prior written consent (in a form satisfactory to the Executive Director) to the collection, use, and potential disclosure of your personal information to the City.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-3.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_115",
+    "domain": "short_term_rental",
+    "question": "Can a short-term rental company require me to use arbitration instead of going to court if there's a dispute?",
+    "answer": "No. According to \u00a7 547-3.5, short-term rental companies cannot impose mandatory arbitration clauses on individuals, including operators or guests. Any such clauses are unenforceable.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-3.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_116",
+    "domain": "short_term_rental",
+    "question": "What happens if a short-term rental platform's terms of service include a clause saying disputes must be resolved under the laws of another jurisdiction?",
+    "answer": "That clause is unenforceable in Toronto. \u00a7 547-3.5 prohibits short-term rental companies from requiring that any law other than Ontario law be applied in relation to use of the company's services in Toronto.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-3.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_117",
+    "domain": "noise",
+    "question": "What does the abbreviation 'GO' stand for in Toronto's noise by-law?",
+    "answer": "GO stands for Go Transit.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-5.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_118",
+    "domain": "noise",
+    "question": "Which railway companies are defined in the noise by-law definitions section?",
+    "answer": "Canadian National Railway (CN) and Canadian Pacific Railway (CP) are defined in the noise by-law definitions section.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-5.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_119",
+    "domain": "short_term_rental",
+    "question": "Who has the authority to issue interpretation bulletins for short-term rental regulations in Toronto?",
+    "answer": "The Executive Director may, at her or his discretion, issue interpretation bulletins or guidelines on matters relating to short-term rental regulations.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-5.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_120",
+    "domain": "short_term_rental",
+    "question": "Are interpretation bulletins and guidelines issued by the Executive Director required to be made public?",
+    "answer": "Yes, the Executive Director shall publish all bulletins or guidelines issued under this section.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-5.4"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_121",
+    "domain": "short_term_rental",
+    "question": "What types of documents can the Executive Director examine during an audit of a short-term rental operator?",
+    "answer": "The Executive Director may audit or examine all books and records and any account, voucher, letter, facsimile, and electronic or other document held by a short-term rental company or operator that relates or may relate to information that is or should be in the person's books or records.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-5.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_122",
+    "domain": "short_term_rental",
+    "question": "If the Executive Director audits my short-term rental business, what am I required to do?",
+    "answer": "You must comply with all audit directions given by the Executive Director within the specified time, including: giving the Executive Director all reasonable assistance with the audit or examination, answering all questions relating to the audit or examination either orally or in writing, on oath, or by statutory declaration, and attending meetings as required.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-5.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_123",
+    "domain": "noise",
+    "question": "Can a Toronto By-law Enforcement Officer enter my property to inspect for noise by-law violations?",
+    "answer": "Yes, a By-law Enforcement Officer may enter upon land within the City at any reasonable time for the purpose of carrying out inspections to determine whether the noise by-law chapter or any notice or order issued under it is being complied with.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-4.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_124",
+    "domain": "noise",
+    "question": "What can a By-law Enforcement Officer do during a noise inspection at my property?",
+    "answer": "During an inspection, a By-law Enforcement Officer may require production of documents or things relevant to the inspection, inspect and remove documents or things to make copies or extracts, require information from any person concerning a matter related to the inspection, and be accompanied by other persons.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-4.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_125",
+    "domain": "noise",
+    "question": "What is considered a point of reception according to Toronto's noise by-law?",
+    "answer": "A point of reception is any location on a person's premises where sound originating from other premises is received. Examples include outdoor areas near building fa\u00e7ades at 1.5 metres above ground (such as backyards, front yards, terraces, or patios), unenclosed balconies or elevated terraces like rooftops, and indoor areas inside a building.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_126",
+    "domain": "noise",
+    "question": "Can an enclosed balcony be considered a point of reception for measuring noise from outside my property?",
+    "answer": "No. According to the by-law, balconies and elevated terraces are only considered points of reception if they are not enclosed. An enclosed balcony would not qualify as a point of reception under this definition.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_127",
+    "domain": "noise",
+    "question": "What is the maximum sound level allowed from a residential air conditioner indoors during nighttime hours?",
+    "answer": "40 dB(A) from 11 p.m. to 7 a.m.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-2.8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_128",
+    "domain": "noise",
+    "question": "When can a By-law Enforcement Officer measure residential air conditioner noise from an indoor point instead of outdoors?",
+    "answer": "When the officer determines it is not reasonable to measure from an outdoor point of reception in a living area.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-2.8"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_129",
+    "domain": "noise",
+    "question": "When was the noise by-law section 591-5.2 about prohibited locations adopted by Toronto City Council?",
+    "answer": "June 19, 2019",
+    "question_type": "factual",
+    "relevant_sections": [
+      "591-5.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_130",
+    "domain": "noise",
+    "question": "If I want to know about noise rules specifically in Toronto parks, which chapter should I refer to?",
+    "answer": "Chapter 608 covers noise in parks",
+    "question_type": "rule",
+    "relevant_sections": [
+      "591-5.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_131",
+    "domain": "short_term_rental",
+    "question": "How are official communications from Municipal Licensing and Standards delivered to short-term rental applicants and licensees?",
+    "answer": "Communications are sent via e-mail to the e-mail address most recently provided to Municipal Licensing and Standards as part of the licensing and registration process, except where another method is authorized by the Executive Director.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-5.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_132",
+    "domain": "short_term_rental",
+    "question": "When is an e-mail from Municipal Licensing and Standards considered to have been officially received by a short-term rental operator?",
+    "answer": "An e-mail sent in accordance with the communication requirements shall be deemed to have been received by the addressee on the day it is sent.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-5.5"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_133",
+    "domain": "short_term_rental",
+    "question": "If I want to appeal a decision about my short-term rental registration, do I need to submit my request in writing?",
+    "answer": "Yes. Any response, review, or decision under the refusal and revocation processes must be completed in writing in a manner prescribed by the Executive Director.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.10"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_134",
+    "domain": "short_term_rental",
+    "question": "Under what circumstances can I request an oral or electronic hearing instead of a written process for my short-term rental registration decision?",
+    "answer": "You can request an oral or electronic hearing if you ask for one and the Executive Director determines there is good reason in the circumstances to hold such a hearing. If approved, the Executive Director will establish a procedure for the hearing and designate a hearing officer or officers to determine whether the registration should be granted or revoked.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.10"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_135",
+    "domain": "short_term_rental",
+    "question": "Do short-term rental companies in Toronto need to publish their complaint procedures?",
+    "answer": "Yes, every short-term rental company must maintain and make publicly available its procedure for dealing with complaints about nuisances, criminal activity, and contraventions of federal, provincial, or municipal law related to a short-term rental.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-3.6"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_136",
+    "domain": "short_term_rental",
+    "question": "What types of issues must a short-term rental company's published complaint procedure address?",
+    "answer": "The published complaint procedure must address complaints about nuisances, criminal activity, and contraventions of federal, provincial, or municipal law related to a short-term rental.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-3.6"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_137",
+    "domain": "short_term_rental",
+    "question": "How long is a short-term rental licence valid for in Toronto?",
+    "answer": "A licence or registration issued under this chapter shall be valid for one year and shall be renewed on the anniversary of the date upon which it was first issued.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-2.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_138",
+    "domain": "short_term_rental",
+    "question": "What happens if I don't renew my short-term rental licence within 90 days of the renewal date?",
+    "answer": "If a person holding a licence or registration fails to renew it within 90 days of the renewal date, it shall be cancelled and the person shall be required to apply for a new licence or registration and pay all applicable fees.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-2.2"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_139",
+    "domain": "short_term_rental",
+    "question": "What does the by-law consider a dwelling unit for short-term rental purposes?",
+    "answer": "A dwelling unit is separate or self-contained living accommodation for a person or persons living together as a single housekeeping unit in which both food preparation and sanitary facilities are provided for the exclusive use of the occupants of the unit. This includes secondary suites, laneway suites, and garden suites.",
+    "question_type": "factual",
+    "relevant_sections": [
+      "547-1.1"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "id": "synthetic_140",
+    "domain": "short_term_rental",
+    "question": "Does a short-term rental dwelling unit need to have its own kitchen and bathroom facilities?",
+    "answer": "Yes, a dwelling unit must have both food preparation facilities (kitchen) and sanitary facilities (bathroom) provided for the exclusive use of the occupants.",
+    "question_type": "rule",
+    "relevant_sections": [
+      "547-1.1"
+    ],
+    "source": "synthetic"
+  }
+]
